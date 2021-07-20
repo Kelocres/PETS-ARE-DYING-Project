@@ -14,8 +14,7 @@ public class VNManagerScript : MonoBehaviour
     public Image canvas_bgImage;
 
     //Just for trying the code during this firsts days
-    public Dialog tryingDialog;
-    public Dialog currentDialog;
+    public 
 
     // Start is called before the first frame update
     void Start()
@@ -26,10 +25,8 @@ public class VNManagerScript : MonoBehaviour
         if(getObject!=null) canvas_bgImage = getObject.GetComponent<Image>();
     }
 
-    public void StartDialog(Dialog getDialog)
+    public void StartDialog()
     {
-        currentDialog = getDialog;
-
         
     }
 
