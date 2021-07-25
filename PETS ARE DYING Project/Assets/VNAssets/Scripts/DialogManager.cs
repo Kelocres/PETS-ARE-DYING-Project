@@ -20,13 +20,20 @@ public class DialogManager : MonoBehaviour
     //In order to control the alpha (transparency) of the background image
     public CanvasGroup cg_bgImage;
 
+    //The buttons for the options in a decision
+    private Button optionA;
+    private Button optionB;
+    //The OptionDialogs that are triggered 
+    private OptionDialog optionDialogA;
+    private OptionDialog optionDialogB;
+
     //Just for trying the code during this firsts days
     public Dialog testingDialog;
 
     private Dialog currentDialog;
 
     //Coroutine for writing the text
-    private IEnumerator dialogWritter;
+    private IEnumerator dialogWriter;
     private IEnumerator dialogBGImage;
 
     // Start is called before the first frame update
@@ -42,11 +49,21 @@ public class DialogManager : MonoBehaviour
              cg_bgImage.alpha = 0f;
         }
 
+        //Find the bottons for the options
+        GameObject[] getListObjects = GameObject.FindGameObjectsWithTag("ButtonOption");
+        Debug.Log("ButtonOptions detected: "+getListObjects.Length);
+        if(getListObjects.Length == 2)
+        {
+            optionA = getListObjects[0].GetComponent<Button>();
+            optionB = getListObjects[1].GetComponent<Button>();
+            Debug.Log("ButtonOptions detected");
+        }
+
         //Create an empty queue
         linesForDialog = new Queue<DialogLine>();
 
         //Start the prototype
-        StartDialog(testingDialog);
+        if(testingDialog!=null)     StartDialog(testingDialog);
     }
 
     public void StartDialog(Dialog getDialog)
@@ -58,6 +75,7 @@ public class DialogManager : MonoBehaviour
 
         if(currentDialog.selectBGImage != -1)
         {
+            Debug.Log("Let's show a background image");
             if(dialogBGImage!=null) StopCoroutine(dialogBGImage);
             dialogBGImage = FadeInBackgroundImage(currentDialog.selectBGImage);
             StartCoroutine(dialogBGImage);
@@ -78,20 +96,43 @@ public class DialogManager : MonoBehaviour
         
         if(linesForDialog.Count == 0)
         {
+            Debug.Log("End of DialogLines");
             //In case that there is a decision
-            if(currentDialog.decision != null)
-            {
-                //setBool of isDecision
-                //Read text from DecisonScript like a DialogLine
-                //Link CANVAS bottons to the options of the decision
-                //The amount of bottons in the screen is related to the 
-                //amount of options of the decisions (array's length)
-            }
-            else
+            if(currentDialog.decision == null || currentDialog.finish_dialog)
             {
                 FinishDialog();
                 return;
             }
+            else
+            {
+                Debug.Log("Let's take a decision");
+                //setBool of isDecision
+                animDialogBox.SetBool("isDecision", true);
+                //Read text from DecisonScript like a DialogLine
+                DecisionLine decision = currentDialog.decision;
+                txtName.text = decision.name;
+                
+                if(dialogWriter!=null) StopCoroutine(dialogWriter);
+                dialogWriter = WriteLine(decision.text);
+                StartCoroutine(dialogWriter);
+
+                //Link CANVAS bottons to the options of the decision
+
+                optionA.GetComponentInChildren<Text>().text = decision.optionA.showOption;
+                //Assing function of decision.optionA
+                optionA.onClick.AddListener(OnClickOptionA);
+                optionDialogA = decision.optionA;
+
+                optionB.GetComponentInChildren<Text>().text = decision.optionB.showOption;
+                //Assing function of decision.optionB
+                optionB.onClick.AddListener(OnClickOptionB);
+                optionDialogB = decision.optionB;
+
+                //The amount of bottons in the screen is related to the 
+                //amount of options of the decisions (array's length)
+                return;
+            }
+            
         }
         //Debug.Log("Showing the current line");
 
@@ -102,7 +143,34 @@ public class DialogManager : MonoBehaviour
 
         //Begin to write the line in the DialogBox
         //StopAllCoroutines();
-        StartCoroutine(WriteLine(currentLine.text));
+        if(dialogWriter!=null) StopCoroutine(dialogWriter);
+        dialogWriter = WriteLine(currentLine.text);
+        StartCoroutine(dialogWriter);
+
+    }
+
+    public void OnClickOptionA()
+    {
+        Debug.Log("Option A is chosen");
+        ChangeDialog(optionDialogA);
+    }
+
+    public void OnClickOptionB()
+    {
+        Debug.Log("Option B is chosen");
+        ChangeDialog(optionDialogB);
+    }
+
+    public void ChangeDialog(OptionDialog chosenOption)
+    {
+        //Disable the ButtonOptions
+        optionA.onClick.RemoveListener(OnClickOptionA);
+        optionB.onClick.RemoveListener(OnClickOptionB);
+
+        //Change isDecision in animBoxDialog
+        animDialogBox.SetBool("isDecision",false);
+
+        StartDialog(chosenOption.newDialog);
 
     }
 

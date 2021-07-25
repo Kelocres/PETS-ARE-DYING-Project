@@ -5,7 +5,7 @@ using UnityEngine;
 public class DecisionScript : MonoBehaviour
 {
     public string text;
-    public int imagePointer;
-    public int [] options;
+    public int selectBGImage;
+    //public int [] options;
 
 }

@@ -8,9 +8,12 @@ public class Dialog : MonoBehaviour
     
     public DialogLine[] dialogLines;
 
-    public DecisionScript decision;
+    public DecisionLine decision = null;
 
     public int selectBGImage = -1;
+
+    //In case it doesn't get that decision is null
+    public bool finish_dialog = false;
     
 }
 
@@ -21,4 +24,19 @@ public class DialogLine
     public string name;
 
     [TextArea(3, 10)] public string text;
+}
+
+[System.Serializable]
+public class DecisionLine : DialogLine
+{
+    public OptionDialog optionA;
+    public OptionDialog optionB;
+
+}
+
+[System.Serializable]
+public class OptionDialog
+{
+    [TextArea(1, 10)] public string showOption;
+    public Dialog newDialog;
 }

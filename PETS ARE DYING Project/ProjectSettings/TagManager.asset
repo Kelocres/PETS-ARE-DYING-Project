@@ -6,6 +6,7 @@ TagManager:
   tags:
   - BackgroundImage
   - DialogBox
+  - ButtonOption
   layers:
   - Default
   - TransparentFX
