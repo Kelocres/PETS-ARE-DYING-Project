@@ -7,6 +7,8 @@ TagManager:
   - BackgroundImage
   - DialogBox
   - ButtonOption
+  - BackgroundImageLerp
+  - GameManager
   layers:
   - Default
   - TransparentFX

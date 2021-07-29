@@ -10,10 +10,26 @@ public class Dialog : MonoBehaviour
 
     public DecisionLine decision = null;
 
+    public Dialog nextDialog;
+
+    public AfterDialogEvent ade;
+
     public int selectBGImage = -1;
 
-    //In case it doesn't get that decision is null
-    public bool finish_dialog = false;
+    //In case it doesn't get that decision is null (AN ENUM IS BETTER)
+    //public bool finish_dialog = false;
+    //REFERENCE FOR ENUMS IN UNITY C#:
+    //https://learn.unity.com/tutorial/enumerations#5c8a6ee6edbc2a067d47537b
+    public enum ActionDialog : short {Finish = 0, Decision = 1, NextDialog = 2, Event = 3};
+    public ActionDialog afterDialog = ActionDialog.Finish;
+
+    //Because other scripts cannot work with foreign enums, the comparison
+    //will be done from this script
+
+    public bool afterDialogIsFinish()       {return afterDialog == ActionDialog.Finish;}
+    public bool afterDialogIsDecison()      {return afterDialog == ActionDialog.Decision;}
+    public bool afterDialogIsNextDialog()   {return afterDialog == ActionDialog.NextDialog;}
+    public bool afterDialogIsEvent()        {return afterDialog == ActionDialog.Event;}
     
 }
 

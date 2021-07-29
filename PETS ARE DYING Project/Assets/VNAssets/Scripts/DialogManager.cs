@@ -19,6 +19,11 @@ public class DialogManager : MonoBehaviour
     public RawImage raw_bgImage;
     //In order to control the alpha (transparency) of the background image
     public CanvasGroup cg_bgImage;
+    private bool showing_bgImage;
+
+    //When the image background has to transitionate from one texture to another
+    public RawImage raw_bgImageLerp;
+    public CanvasGroup cg_bgImageLerp;
 
     //The buttons for the options in a decision
     private Button optionA;
@@ -36,6 +41,9 @@ public class DialogManager : MonoBehaviour
     private IEnumerator dialogWriter;
     private IEnumerator dialogBGImage;
 
+    //public enum ActionDialog : short {Finish = 0, Decision = 1, NextDialog = 2};
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +54,14 @@ public class DialogManager : MonoBehaviour
         {
              raw_bgImage = getObject.GetComponent<RawImage>();
              cg_bgImage = getObject.GetComponent<CanvasGroup>();
+             cg_bgImage.alpha = 0f;
+             showing_bgImage = false;
+        }
+        getObject = GameObject.FindGameObjectWithTag("BackgroundImageLerp");
+        if(getObject!=null)
+        {
+             raw_bgImageLerp = getObject.GetComponent<RawImage>();
+             cg_bgImageLerp = getObject.GetComponent<CanvasGroup>();
              cg_bgImage.alpha = 0f;
         }
 
@@ -73,11 +89,25 @@ public class DialogManager : MonoBehaviour
 
         animDialogBox.SetBool("isOpen", true);
 
-        if(currentDialog.selectBGImage != -1)
+        if(currentDialog.selectBGImage != -1 && !showing_bgImage)
         {
             Debug.Log("Let's show a background image");
+            showing_bgImage = true;
             if(dialogBGImage!=null) StopCoroutine(dialogBGImage);
             dialogBGImage = FadeInBackgroundImage(currentDialog.selectBGImage);
+            StartCoroutine(dialogBGImage);
+        }
+        else if(currentDialog.selectBGImage == -1 && showing_bgImage)
+        {
+            showing_bgImage = false;
+            if(dialogBGImage!=null) StopCoroutine(dialogBGImage);
+            dialogBGImage = FadeOutBackgroundImage();
+            StartCoroutine(dialogBGImage);
+        }
+        else if(currentDialog.selectBGImage != -1 && showing_bgImage)
+        {
+            if(dialogBGImage!=null) StopCoroutine(dialogBGImage);
+            dialogBGImage = ChangeBackgroundImage(currentDialog.selectBGImage);
             StartCoroutine(dialogBGImage);
         }
 
@@ -98,12 +128,13 @@ public class DialogManager : MonoBehaviour
         {
             Debug.Log("End of DialogLines");
             //In case that there is a decision
-            if(currentDialog.decision == null || currentDialog.finish_dialog)
+            //if(currentDialog.decision == null || currentDialog.finish_dialog)
+            if(currentDialog.afterDialogIsNextDialog())
             {
-                FinishDialog();
+                ChangeDialog(currentDialog.nextDialog);
                 return;
             }
-            else
+            else if(currentDialog.afterDialogIsDecison())
             {
                 Debug.Log("Let's take a decision");
                 //setBool of isDecision
@@ -132,6 +163,20 @@ public class DialogManager : MonoBehaviour
                 //amount of options of the decisions (array's length)
                 return;
             }
+            else if(currentDialog.afterDialogIsEvent())
+            {
+                Debug.Log("An event is gonna happen");
+                currentDialog.ade.Activate();
+                FinishDialog();
+                return;
+            }
+            //if(currentDialog.afterDialogIsFinish())
+            else
+            {
+                FinishDialog();
+                return;
+            }
+
             
         }
         //Debug.Log("Showing the current line");
@@ -152,16 +197,18 @@ public class DialogManager : MonoBehaviour
     public void OnClickOptionA()
     {
         Debug.Log("Option A is chosen");
-        ChangeDialog(optionDialogA);
+        //ChangeDialog(optionDialogA);
+        ChangeDialog(optionDialogA.newDialog);
     }
 
     public void OnClickOptionB()
     {
         Debug.Log("Option B is chosen");
-        ChangeDialog(optionDialogB);
+        //ChangeDialog(optionDialogB);
+        ChangeDialog(optionDialogB.newDialog);
     }
 
-    public void ChangeDialog(OptionDialog chosenOption)
+    public void ChangeDialog(Dialog chosenOption)
     {
         //Disable the ButtonOptions
         optionA.onClick.RemoveListener(OnClickOptionA);
@@ -170,7 +217,7 @@ public class DialogManager : MonoBehaviour
         //Change isDecision in animBoxDialog
         animDialogBox.SetBool("isDecision",false);
 
-        StartDialog(chosenOption.newDialog);
+        StartDialog(chosenOption);
 
     }
 
@@ -203,6 +250,20 @@ public class DialogManager : MonoBehaviour
             cg_bgImage.alpha -= 1f * Time.deltaTime;
             yield return null;
         }
+    }
+
+    IEnumerator ChangeBackgroundImage(int select)
+    {
+        raw_bgImageLerp.texture = listBackgroundImages[select];
+        while(cg_bgImageLerp.alpha < 1f)
+        {
+            cg_bgImageLerp.alpha += 1f * Time.deltaTime;
+            yield return null;
+        }
+        //Change in a frame the background image texture 
+        raw_bgImage.texture = listBackgroundImages[select];
+        cg_bgImageLerp.alpha = 0f;
+
     }
 
     public void FinishDialog()
