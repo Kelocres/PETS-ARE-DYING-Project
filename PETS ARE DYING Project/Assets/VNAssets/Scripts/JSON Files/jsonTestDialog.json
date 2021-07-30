@@ -1,0 +1,11 @@
+{
+    "dialogLines" : [
+
+    ],
+
+    "decision" : null,
+    "nextDialog" : null,
+    "ade" : null,
+    "selectBGImage" : -1,
+    "afterDialog" : null
+}
