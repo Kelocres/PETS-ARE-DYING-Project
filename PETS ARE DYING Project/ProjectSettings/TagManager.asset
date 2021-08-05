@@ -9,6 +9,9 @@ TagManager:
   - ButtonOption
   - BackgroundImageLerp
   - GameManager
+  - DialogBoxName
+  - DialogBoxText
+  - ButtonNextDialog
   layers:
   - Default
   - TransparentFX

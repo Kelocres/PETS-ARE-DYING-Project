@@ -33,7 +33,7 @@ public class DialogManager : MonoBehaviour
     private OptionDialog optionDialogB;
 
     //Just for trying the code during this firsts days
-    public Dialog testingDialog;
+    //public Dialog testingDialog;
 
     private Dialog currentDialog;
 
@@ -65,6 +65,10 @@ public class DialogManager : MonoBehaviour
              cg_bgImage.alpha = 0f;
         }
 
+        txtName = GameObject.FindGameObjectWithTag("DialogBoxName").GetComponent<Text>();
+        txtDialog = GameObject.FindGameObjectWithTag("DialogBoxText").GetComponent<Text>();
+        GameObject.FindGameObjectWithTag("ButtonNextDialog").GetComponent<Button>().onClick.AddListener(ShowCurrentLine);
+
         //Find the bottons for the options
         GameObject[] getListObjects = GameObject.FindGameObjectsWithTag("ButtonOption");
         Debug.Log("ButtonOptions detected: "+getListObjects.Length);
@@ -79,7 +83,7 @@ public class DialogManager : MonoBehaviour
         linesForDialog = new Queue<DialogLine>();
 
         //Start the prototype
-        if(testingDialog!=null)     StartDialog(testingDialog);
+        //if(testingDialog!=null)     StartDialog(testingDialog);
     }
 
     public void StartDialog(Dialog getDialog)
