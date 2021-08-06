@@ -43,6 +43,7 @@ public class DialogManager : MonoBehaviour
 
     //public enum ActionDialog : short {Finish = 0, Decision = 1, NextDialog = 2};
 
+    private PlayerMovement2 player;
 
     // Start is called before the first frame update
     void Start()
@@ -67,7 +68,9 @@ public class DialogManager : MonoBehaviour
 
         txtName = GameObject.FindGameObjectWithTag("DialogBoxName").GetComponent<Text>();
         txtDialog = GameObject.FindGameObjectWithTag("DialogBoxText").GetComponent<Text>();
-        GameObject.FindGameObjectWithTag("ButtonNextDialog").GetComponent<Button>().onClick.AddListener(ShowCurrentLine);
+        
+        //THIS DOESN'T WORK, IT MUST BE DONE IN THE INSPECTOR
+        //GameObject.FindGameObjectWithTag("ButtonNextDialog").GetComponent<Button>().onClick.AddListener(delegate {ShowCurrentLine();});
 
         //Find the bottons for the options
         GameObject[] getListObjects = GameObject.FindGameObjectsWithTag("ButtonOption");
@@ -82,6 +85,8 @@ public class DialogManager : MonoBehaviour
         //Create an empty queue
         linesForDialog = new Queue<DialogLine>();
 
+        player = FindObjectOfType<PlayerMovement2>();
+
         //Start the prototype
         //if(testingDialog!=null)     StartDialog(testingDialog);
     }
@@ -90,6 +95,8 @@ public class DialogManager : MonoBehaviour
     {
         //Debug.Log("New conversation");
         currentDialog = getDialog;
+
+        player.ableToWalk = false;
 
         animDialogBox.SetBool("isOpen", true);
 
@@ -273,6 +280,7 @@ public class DialogManager : MonoBehaviour
     public void FinishDialog()
     {
         animDialogBox.SetBool("isOpen", false);
+        player.ableToWalk = true;
 
         //Stop showing the background image (if there is any)
         if(currentDialog.selectBGImage != -1)

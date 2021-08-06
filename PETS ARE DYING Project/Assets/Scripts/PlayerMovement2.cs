@@ -10,6 +10,7 @@ public class PlayerMovement2 : MonoBehaviour
     private bool facingRight = true;
 
     private Animator animator;
+    public bool ableToWalk = true;
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +28,11 @@ public class PlayerMovement2 : MonoBehaviour
     private void FixedUpdate() {
         moveInput = Input.GetAxis("Horizontal"); //comment this line out, and use the methods below for other movement methods
 
-        Debug.Log(moveInput);
+        //Debug.Log(moveInput);
+
+        //NO MOVEMENT ALLOWED WHILE THE DIALOG SYSTEM IS ACTIVATED
+        if(!ableToWalk) moveInput = 0f;
+
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
         if (facingRight == false && moveInput > 0) {
             Flip();
