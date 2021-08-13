@@ -6,7 +6,8 @@ public class PlayerMovement2 : MonoBehaviour
 {
     public float speed = 3;
     private float moveInput;
-    private Rigidbody2D rb;
+    //private Rigidbody2D rb;
+    private Rigidbody rb;
     private bool facingRight = true;
 
     private Animator animator;
@@ -15,14 +16,14 @@ public class PlayerMovement2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb = gameObject.GetComponent<Rigidbody2D>();
+        rb = gameObject.GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void FixedUpdate() {
