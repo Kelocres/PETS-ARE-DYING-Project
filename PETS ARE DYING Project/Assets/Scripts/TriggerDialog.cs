@@ -7,7 +7,8 @@ public class TriggerDialog : MonoBehaviour
     public Dialog dialog;
     public bool onlyOnce = true;
 
-    void OnTriggerEnter2D(Collider2D other)
+    //void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter(Collider other)
     {
         Debug.Log("Collision triggered");
         if(other.tag == "Player")
@@ -16,7 +17,8 @@ public class TriggerDialog : MonoBehaviour
             FindObjectOfType<DialogManager>().StartDialog(dialog);
             if(onlyOnce)
                 //GetComponent<BoxCollider2D>().SetActive(false);   //THIS ONLY WORKS FOR GAMEOBJECTS
-                GetComponent<BoxCollider2D>().enabled = false;
+                //GetComponent<BoxCollider2D>().enabled = false;
+                GetComponent<BoxCollider>().enabled = false;
         }
     }
 }

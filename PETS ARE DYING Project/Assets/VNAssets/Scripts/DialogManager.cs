@@ -31,9 +31,13 @@ public class DialogManager : MonoBehaviour
     //The OptionDialogs that are triggered 
     private OptionDialog optionDialogA;
     private OptionDialog optionDialogB;
+    //The points of the options
+    private int pointsOptionA;
+    private int pointsOptionB;
 
-    //Just for trying the code during this firsts days
-    //public Dialog testingDialog;
+    //The scene begins with this dialog
+    public Dialog startingDialog;
+    public bool doStartingDialog = false;
 
     private Dialog currentDialog;
 
@@ -44,6 +48,7 @@ public class DialogManager : MonoBehaviour
     //public enum ActionDialog : short {Finish = 0, Decision = 1, NextDialog = 2};
 
     private PlayerMovement2 player;
+    private PlayerData playerData;
 
     // Start is called before the first frame update
     void Start()
@@ -84,18 +89,24 @@ public class DialogManager : MonoBehaviour
 
         //Create an empty queue
         linesForDialog = new Queue<DialogLine>();
-
         player = FindObjectOfType<PlayerMovement2>();
+        playerData = FindObjectOfType<PlayerData>();
+        pointsOptionA = 0;
+        pointsOptionB = 0;
 
-        //Start the prototype
-        //if(testingDialog!=null)     StartDialog(testingDialog);
+        //Launch startingDialog
+        if(doStartingDialog)     StartDialog(startingDialog);
     }
 
     public void StartDialog(Dialog getDialog)
     {
         //Debug.Log("New conversation");
         currentDialog = getDialog;
-
+        if(currentDialog==null)
+        {
+            FinishDialog();
+            return;
+        }
         player.ableToWalk = false;
 
         animDialogBox.SetBool("isOpen", true);
@@ -164,11 +175,13 @@ public class DialogManager : MonoBehaviour
                 //Assing function of decision.optionA
                 optionA.onClick.AddListener(OnClickOptionA);
                 optionDialogA = decision.optionA;
+                if(optionDialogA.points!=0)     pointsOptionA = optionDialogA.points;
 
                 optionB.GetComponentInChildren<Text>().text = decision.optionB.showOption;
                 //Assing function of decision.optionB
                 optionB.onClick.AddListener(OnClickOptionB);
                 optionDialogB = decision.optionB;
+                if(optionDialogB.points!=0)     pointsOptionB = optionDialogB.points;
 
                 //The amount of bottons in the screen is related to the 
                 //amount of options of the decisions (array's length)
@@ -208,6 +221,7 @@ public class DialogManager : MonoBehaviour
     public void OnClickOptionA()
     {
         Debug.Log("Option A is chosen");
+        playerData.PointsDuringDialog(pointsOptionA);
         //ChangeDialog(optionDialogA);
         ChangeDialog(optionDialogA.newDialog);
     }
@@ -215,6 +229,7 @@ public class DialogManager : MonoBehaviour
     public void OnClickOptionB()
     {
         Debug.Log("Option B is chosen");
+        playerData.PointsDuringDialog(pointsOptionB);
         //ChangeDialog(optionDialogB);
         ChangeDialog(optionDialogB.newDialog);
     }
@@ -224,6 +239,10 @@ public class DialogManager : MonoBehaviour
         //Disable the ButtonOptions
         optionA.onClick.RemoveListener(OnClickOptionA);
         optionB.onClick.RemoveListener(OnClickOptionB);
+
+        //Reset the values of points
+        pointsOptionA = 0;
+        pointsOptionB = 0;
 
         //Change isDecision in animBoxDialog
         animDialogBox.SetBool("isDecision",false);
@@ -283,7 +302,7 @@ public class DialogManager : MonoBehaviour
         player.ableToWalk = true;
 
         //Stop showing the background image (if there is any)
-        if(currentDialog.selectBGImage != -1)
+        if(currentDialog!=null && currentDialog.selectBGImage != -1)
         {
             StopCoroutine(dialogBGImage);
             dialogBGImage = FadeOutBackgroundImage();

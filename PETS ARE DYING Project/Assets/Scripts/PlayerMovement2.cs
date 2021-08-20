@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerMovement2 : MonoBehaviour
 {
@@ -13,11 +14,15 @@ public class PlayerMovement2 : MonoBehaviour
     private Animator animator;
     public bool ableToWalk = true;
 
+    //Geting the input from ButtonsMovement
+    private float inputTouch;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
+        inputTouch = 0f;
     }
 
     // Update is called once per frame
@@ -29,7 +34,10 @@ public class PlayerMovement2 : MonoBehaviour
     private void FixedUpdate() {
         moveInput = Input.GetAxis("Horizontal"); //comment this line out, and use the methods below for other movement methods
 
-        //Debug.Log(moveInput);
+        moveInput += inputTouch;
+        if(moveInput < -1f)     moveInput = -1f;
+        else if(moveInput > 1f) moveInput = 1f;
+        
 
         //NO MOVEMENT ALLOWED WHILE THE DIALOG SYSTEM IS ACTIVATED
         if(!ableToWalk) moveInput = 0f;
@@ -59,4 +67,16 @@ public class PlayerMovement2 : MonoBehaviour
     public void stop() {
         moveInput = 0;
     }
+
+    public void InputButtonsMovement(string dir, bool state)
+    {
+        if(state)
+        {
+            if(dir=="left")         inputTouch = -1f;
+            else if(dir=="right")   inputTouch = 1f; 
+        }
+        
+        else inputTouch = 0f;
+    }
+    
 }
