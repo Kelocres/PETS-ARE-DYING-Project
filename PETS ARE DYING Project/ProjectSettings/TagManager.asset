@@ -12,6 +12,7 @@ TagManager:
   - DialogBoxName
   - DialogBoxText
   - ButtonNextDialog
+  - ButtonInteract
   layers:
   - Default
   - TransparentFX
