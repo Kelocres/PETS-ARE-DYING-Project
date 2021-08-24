@@ -28,7 +28,11 @@ public class ChangeScene : MonoBehaviour
 
     public void LoadNextScene()
     {
-        if(nameNextScene!=null)     SceneManager.LoadScene(nameNextScene);
+        if(nameNextScene!=null)     
+        {
+            FindObjectOfType<LoadingSceneManager>().SaveBeforeNextScene();
+            SceneManager.LoadScene(nameNextScene);
+        }
     }
 
     public void SetUpButton(string newNameScene)
