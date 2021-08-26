@@ -13,6 +13,8 @@ TagManager:
   - DialogBoxText
   - ButtonNextDialog
   - ButtonInteract
+  - SquareTrigger_Armchair
+  - SetUpScene_Day1
   layers:
   - Default
   - TransparentFX

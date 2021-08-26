@@ -148,7 +148,7 @@ public class DialogManager : MonoBehaviour
         
         if(linesForDialog.Count == 0)
         {
-            Debug.Log("End of DialogLines");
+            //Debug.Log("End of DialogLines");
             //In case that there is a decision
             //if(currentDialog.decision == null || currentDialog.finish_dialog)
             if(currentDialog.afterDialogIsNextDialog())
@@ -220,7 +220,7 @@ public class DialogManager : MonoBehaviour
 
     public void OnClickOptionA()
     {
-        Debug.Log("Option A is chosen");
+        //Debug.Log("Option A is chosen");
         playerData.PointsDuringDialog(pointsOptionA);
         //ChangeDialog(optionDialogA);
         ChangeDialog(optionDialogA.newDialog);
@@ -228,7 +228,7 @@ public class DialogManager : MonoBehaviour
 
     public void OnClickOptionB()
     {
-        Debug.Log("Option B is chosen");
+        //Debug.Log("Option B is chosen");
         playerData.PointsDuringDialog(pointsOptionB);
         //ChangeDialog(optionDialogB);
         ChangeDialog(optionDialogB.newDialog);
@@ -298,16 +298,20 @@ public class DialogManager : MonoBehaviour
 
     public void FinishDialog()
     {
+        Debug.Log("End of the Dialog");
         animDialogBox.SetBool("isOpen", false);
         player.ableToWalk = true;
 
+        
+
         //Stop showing the background image (if there is any)
-        if(currentDialog!=null && currentDialog.selectBGImage != -1)
-        {
-            StopCoroutine(dialogBGImage);
+        //if(currentDialog!=null && currentDialog.selectBGImage != -1)
+        //{
+            Debug.Log("Fade out the background image");
+            //StopCoroutine(dialogBGImage);
             dialogBGImage = FadeOutBackgroundImage();
             StartCoroutine(dialogBGImage);
-        }
+        //}
 
         //Communicate to the player script that the controls are able now
 
