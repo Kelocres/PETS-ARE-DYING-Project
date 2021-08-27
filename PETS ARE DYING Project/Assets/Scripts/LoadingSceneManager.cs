@@ -19,7 +19,7 @@ public class LoadingSceneManager : MonoBehaviour
 
         Debug.Log("Start of LoadingSceneManager");
         //Debug.Log("LOADING SCENE MANAGER");
-        setUp = GameObject.FindGameObjectWithTag("SetUpScene_Day1").GetComponent<SetUpScene>();
+        //setUp = GameObject.FindGameObjectWithTag("SetUpScene_Day1").GetComponent<SetUpScene>();
         //About the SetUpScene:
         setUp.StartMoment();
         //1º:   Getting the relevant GameObjects

@@ -9,9 +9,12 @@ public class SetUpMCHouse : SetUpScene
     public bool dialogManager_doStartingDialog;
     public Dialog squareTrigger_Armchair_dialog;
     public bool squareTrigger_Armchair_onlyOnce;
+    public string exitToScene_nextScene;
+    public bool exitToScene_allowExit;
 
-    private DialogManager dManager;
-    private TriggerDialog td_Armchair;
+    public DialogManager dManager;
+    public TriggerDialog td_Armchair;
+    public ExitToScene exit;
 
     /*public void Start()
     {
@@ -32,6 +35,9 @@ public class SetUpMCHouse : SetUpScene
         td_Armchair.dialog = squareTrigger_Armchair_dialog;
         td_Armchair.onlyOnce = squareTrigger_Armchair_onlyOnce;
 
+        exit.nextScene = exitToScene_nextScene;
+        exit.allowExit = exitToScene_allowExit;
+
         //Set value in order to declarate that
 
     }
@@ -49,6 +55,16 @@ public class SetUpMCHouse : SetUpScene
             PlayerPrefs.SetString("armchair_enabled", "true");
         else
             PlayerPrefs.SetString("armchair_enabled", "false");
+
+        string currentNextScene = exit.nextScene;
+        PlayerPrefs.SetString("MCHouse_nextScene", currentNextScene);
+
+        bool currentAllowExit = exit.allowExit;
+        if(currentAllowExit)
+            PlayerPrefs.SetString("MCHouse_allowExit","true");
+        else
+            PlayerPrefs.SetString("MCHouse_allowExit","false");
+
     }
 
     public override void LoadMoment()
@@ -65,7 +81,13 @@ public class SetUpMCHouse : SetUpScene
         else
             td_Armchair.GetComponent<BoxCollider>().enabled = false;
 
+        exit.nextScene = PlayerPrefs.GetString("MCHouse_nextScene","");
 
+        string savedAllowExit = PlayerPrefs.GetString("MCHouse_allowExit","");
+        if(savedAllowExit == "true")
+            exit.allowExit = true;
+        else
+            exit.allowExit = false;
         
     }
 

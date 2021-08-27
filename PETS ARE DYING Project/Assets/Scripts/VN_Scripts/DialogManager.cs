@@ -189,7 +189,7 @@ public class DialogManager : MonoBehaviour
             }
             else if(currentDialog.afterDialogIsEvent())
             {
-                Debug.Log("An event is gonna happen");
+                //Debug.Log("An event is gonna happen");
                 currentDialog.ade.Activate();
                 FinishDialog();
                 return;

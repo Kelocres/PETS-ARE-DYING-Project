@@ -11,7 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MCHouseScene.unity
     guid: dcb85e12ff7064b42a55f6c4dab95d7f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/StreetScene.unity
     guid: cd844a00ef976294caafd29c36a832bb
+  - enabled: 1
+    path: Assets/Scenes/FactoryScene.unity
+    guid: 047f468350d9b354693935a5df40c6fc
+  - enabled: 1
+    path: Assets/Scenes/BusScene.unity
+    guid: 928cb4704300e4c41b89b9b84566a585
   m_configObjects: {}

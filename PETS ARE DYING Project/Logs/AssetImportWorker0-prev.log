@@ -15,11 +15,11 @@ C:/Users/MSI/Documents/GitHub/PETS-ARE-DYING-Project/PETS ARE DYING Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56029
+50364
 Successfully changed project path to: C:/Users/MSI/Documents/GitHub/PETS-ARE-DYING-Project/PETS ARE DYING Project
 C:/Users/MSI/Documents/GitHub/PETS-ARE-DYING-Project/PETS ARE DYING Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 76.10 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 62.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
@@ -36,227 +36,1851 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002334 seconds.
+Registered in 0.002318 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 70.55 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 61.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.818 seconds
+- Completed reload, in  1.305 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001752 seconds.
+Registered in 0.001733 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 66.35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 61.09 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.257 seconds
+- Completed reload, in  1.116 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2635 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.1 MB.
-System memory in use after: 137.3 MB.
+Unloading 2638 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.2 MB.
+System memory in use after: 137.4 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3099.
-Total: 3.359200 ms (FindLiveObjects: 0.556400 ms CreateObjectMapping: 0.276100 ms MarkObjects: 2.369800 ms  DeleteObjects: 0.155900 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3102.
+Total: 3.333600 ms (FindLiveObjects: 0.490400 ms CreateObjectMapping: 0.289200 ms MarkObjects: 2.430500 ms  DeleteObjects: 0.122200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Versions SUS/SetUpMCHouse.cs
-  artifactKey: Guid(22bfdfee835ac264caa054d6cbcfb984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Versions SUS/SetUpMCHouse.cs using Guid(22bfdfee835ac264caa054d6cbcfb984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01755b733a74d7db0367c3201f23f0fc') in 0.051416 seconds
-  Import took 0.057189 seconds .
+  path: Assets/Prefabs/CANVAS_BG.prefab
+  artifactKey: Guid(6841a3107e4b5ea4d82bb1e1eb29f53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CANVAS_BG.prefab using Guid(6841a3107e4b5ea4d82bb1e1eb29f53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e25ed260650eff4425154afe206bf82') in 0.094694 seconds
+  Import took 0.101327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Prefabs/LoadingSceneManager.prefab
+  artifactKey: Guid(e01a88070104bda48a0089728f4cd2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LoadingSceneManager.prefab using Guid(e01a88070104bda48a0089728f4cd2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8865a1a3399346730f3da2a4b9bc8d') in 0.012533 seconds
+  Import took 0.018667 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001661 seconds.
+Registered in 0.002443 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.298 seconds
+- Completed reload, in  1.100 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.0 MB.
+System memory in use after: 131.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3104.
+Total: 2.926700 ms (FindLiveObjects: 0.335900 ms CreateObjectMapping: 0.211700 ms MarkObjects: 2.273100 ms  DeleteObjects: 0.104400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 655.585429 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus
+  artifactKey: Guid(075c3be44d7bd4b419ec3fc66d930843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus using Guid(075c3be44d7bd4b419ec3fc66d930843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17eae03bf70d4da429a3d9e7b4903d9f') in 0.016804 seconds
+  Import took 0.023601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048442 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_BWall_BaseColor.png
+  artifactKey: Guid(07225ab987a3065468e741e6ab0c9bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_BWall_BaseColor.png using Guid(07225ab987a3065468e741e6ab0c9bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d434f7e08ef225dd90555d458e2a93b') in 0.171489 seconds
+  Import took 0.177479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_Chairs_Metallic.png
+  artifactKey: Guid(37eda3fdc992c784a9338a7c5f85e412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_Chairs_Metallic.png using Guid(37eda3fdc992c784a9338a7c5f85e412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7ec672f43112895ebf279ef8f50204') in 0.041509 seconds
+  Import took 0.047304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_BWall_Height.png
+  artifactKey: Guid(5dbdc32b0d1a22548a98c6510b8921f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_BWall_Height.png using Guid(5dbdc32b0d1a22548a98c6510b8921f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef9d19d5728de727ec64d77ecb4dde3') in 0.039477 seconds
+  Import took 0.044226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_BWall_Normal.png
+  artifactKey: Guid(bf8e370175b5ca64689184419b324454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_BWall_Normal.png using Guid(bf8e370175b5ca64689184419b324454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e64fb84811b2502812775c19742f0d0') in 0.038568 seconds
+  Import took 0.044151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_MFrame_Normal.png
+  artifactKey: Guid(b165a7852eb8d4942a0c9f4149aca456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_MFrame_Normal.png using Guid(b165a7852eb8d4942a0c9f4149aca456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7265cecb36d365945b3ff4cc044d243') in 0.037297 seconds
+  Import took 0.043469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_BWall_Roughness.png
+  artifactKey: Guid(ba54100d47ec2744ab1925b886aab1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_BWall_Roughness.png using Guid(ba54100d47ec2744ab1925b886aab1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4da562710f53ed3196296694abd56d6') in 0.038057 seconds
+  Import took 0.043219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_MFrame_Roughness.png
+  artifactKey: Guid(21c93fe27dec2be45a7cd0bce5444bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_MFrame_Roughness.png using Guid(21c93fe27dec2be45a7cd0bce5444bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86c3791085007096346550ea0a7012f') in 0.037905 seconds
+  Import took 0.042886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_FS_BaseColor.png
+  artifactKey: Guid(344cf255f8d4ace42bed1d7aa442aa07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_FS_BaseColor.png using Guid(344cf255f8d4ace42bed1d7aa442aa07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf7f7b330b45163950e51eb201350f3') in 0.042951 seconds
+  Import took 0.047556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_MFrame_BaseColor.png
+  artifactKey: Guid(c38784d713a6d6f42b32d8d0b830a47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_MFrame_BaseColor.png using Guid(c38784d713a6d6f42b32d8d0b830a47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9f9d2505307eea253d6b06cc2221da') in 0.036414 seconds
+  Import took 0.041015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Buss_Door_Height.png
+  artifactKey: Guid(018308c8d85e85d47864e60245c5d4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Buss_Door_Height.png using Guid(018308c8d85e85d47864e60245c5d4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5a1598873c5acda01e44526cdf0d8d') in 0.036839 seconds
+  Import took 0.041419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Buss_Door_Normal.png
+  artifactKey: Guid(990edb0e5461420459e854933f541189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Buss_Door_Normal.png using Guid(990edb0e5461420459e854933f541189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab54466abbf3554adb510534d5432d3') in 0.037972 seconds
+  Import took 0.042833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Buss_Door_Metallic.png
+  artifactKey: Guid(a5de1987c9dce774ca729fc17b606d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Buss_Door_Metallic.png using Guid(a5de1987c9dce774ca729fc17b606d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ba2581503019059428976a61f762b0') in 0.036624 seconds
+  Import took 0.043183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_FS_Normal.png
+  artifactKey: Guid(ad5414e92a904434c83b6287a11f1cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_FS_Normal.png using Guid(ad5414e92a904434c83b6287a11f1cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b3b91d18b578ea4dbb611f087f6191') in 0.042972 seconds
+  Import took 0.047914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_Chairs_Height.png
+  artifactKey: Guid(c06ecbdfe4deb554a8bea7a115f1ea04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_Chairs_Height.png using Guid(c06ecbdfe4deb554a8bea7a115f1ea04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e7b49c9ca45e3a53daf80b97d014ac') in 0.036560 seconds
+  Import took 0.041788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_Chairs_Normal.png
+  artifactKey: Guid(711ee5ce704f4b24fa3a04d56b2763c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_Chairs_Normal.png using Guid(711ee5ce704f4b24fa3a04d56b2763c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d42e7f6fd561ddd2e2f3c336be13af') in 0.035712 seconds
+  Import took 0.041653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Buss_Door_Roughness.png
+  artifactKey: Guid(c40e3966da61fb543bc2b40fba5f6569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Buss_Door_Roughness.png using Guid(c40e3966da61fb543bc2b40fba5f6569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dda647d5e662e0d7027690fe9778809') in 0.033987 seconds
+  Import took 0.038591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_MFrame_Metallic.png
+  artifactKey: Guid(d7b43e445c0d71d44ba14ba55ac107a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_MFrame_Metallic.png using Guid(d7b43e445c0d71d44ba14ba55ac107a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87bd679c8012e07ede93a85f617cb75') in 0.037328 seconds
+  Import took 0.042192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_FS_Height.png
+  artifactKey: Guid(120645c4f2907344c957dd69d2ab2f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_FS_Height.png using Guid(120645c4f2907344c957dd69d2ab2f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac7d76cd7f0415f38373d9b51d59b09') in 0.036097 seconds
+  Import took 0.040947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Buss_Door_BaseColor.png
+  artifactKey: Guid(7cfecba93e131504ea4d4149d0b7375b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Buss_Door_BaseColor.png using Guid(7cfecba93e131504ea4d4149d0b7375b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7732e3acd1f2c8837efb9e37423e4d') in 0.037137 seconds
+  Import took 0.042353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_MFrame_Height.png
+  artifactKey: Guid(47e4069705e4b3641b289e226d7fee32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_MFrame_Height.png using Guid(47e4069705e4b3641b289e226d7fee32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ed3ac9d63c0bc4ba2ca6daf8ec026a') in 0.034304 seconds
+  Import took 0.039268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_FS_Roughness.png
+  artifactKey: Guid(9ff6c2257c0942e43bbd4f1479651428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_FS_Roughness.png using Guid(9ff6c2257c0942e43bbd4f1479651428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0038d1a38cc9700e0acf975c236990') in 0.039643 seconds
+  Import took 0.044496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_BWall_Metallic.png
+  artifactKey: Guid(bb29c908dadb4764ba66e700a7ba8a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_BWall_Metallic.png using Guid(bb29c908dadb4764ba66e700a7ba8a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca88b7d96fecffc481a6ceeacdf9f7c') in 0.036445 seconds
+  Import took 0.041156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_Chairs_BaseColor.png
+  artifactKey: Guid(0a531fa60d87f3e4aae2e0d52eede755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_Chairs_BaseColor.png using Guid(0a531fa60d87f3e4aae2e0d52eede755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfb226a17e80bfc2efe4c83c0e2bedf') in 0.036010 seconds
+  Import took 0.041928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_FS_Metallic.png
+  artifactKey: Guid(7a4c8bc8dffbee9419ca275da33933d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_FS_Metallic.png using Guid(7a4c8bc8dffbee9419ca275da33933d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb1f5c5bdc462a467d0551e87f18277') in 0.035481 seconds
+  Import took 0.040148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_Chairs_Roughness.png
+  artifactKey: Guid(37412066684dc124abe71a41df30dc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_Chairs_Roughness.png using Guid(37412066684dc124abe71a41df30dc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103e6336609bd71884999275dd23a5b0') in 0.038505 seconds
+  Import took 0.044734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 285.951355 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Mat_BusChairs.mat
+  artifactKey: Guid(f5ff30192c073614d9de6ea254eac5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Mat_BusChairs.mat using Guid(f5ff30192c073614d9de6ea254eac5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e59053dc8dc5bf6f6f0cb13a98e0f9c') in 0.207695 seconds
+  Import took 0.216128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.487499 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_Chairs_Normal.png
+  artifactKey: Guid(711ee5ce704f4b24fa3a04d56b2763c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_Chairs_Normal.png using Guid(711ee5ce704f4b24fa3a04d56b2763c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25088d0db64a7ca61e66db2242ac303') in 0.042151 seconds
+  Import took 0.047110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.633200 seconds.
+  path: Assets/3dModels/Hadi_s Assets/DH02/DH02_Main Body_BaseColor.png
+  artifactKey: Guid(fcb49e68133d2d74ea90ae8af1a5e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/DH02/DH02_Main Body_BaseColor.png using Guid(fcb49e68133d2d74ea90ae8af1a5e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3faff240e0b8579304322738126ec298') in 0.066553 seconds
+  Import took 0.077371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/3dModels/Hadi_s Assets/DH02/DH02_Main Body_Normal.png
+  artifactKey: Guid(33e53f0436f6a25488a0d6e5bec2c74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/DH02/DH02_Main Body_Normal.png using Guid(33e53f0436f6a25488a0d6e5bec2c74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35af54338bf7631b4831529f4012c3be') in 0.062151 seconds
+  Import took 0.070302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/3dModels/Hadi_s Assets/DH02/DH02_WFrame_BaseColor.png
+  artifactKey: Guid(8c323e216666fa941bc729e7a4c04fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/DH02/DH02_WFrame_BaseColor.png using Guid(8c323e216666fa941bc729e7a4c04fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3777b2b6e366c8388066b67feb667895') in 0.047995 seconds
+  Import took 0.054388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/3dModels/Hadi_s Assets/DH02/DH02_WFrame_Metallic.png
+  artifactKey: Guid(a28bd3af693785c41a857f66b45248d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/DH02/DH02_WFrame_Metallic.png using Guid(a28bd3af693785c41a857f66b45248d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07535743be712ea53971c743a978333') in 0.043452 seconds
+  Import took 0.049140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/3dModels/Hadi_s Assets/DH02/DH02_Main Body_Roughness.png
+  artifactKey: Guid(02d819acb2a433f4090d72d58c59a2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/DH02/DH02_Main Body_Roughness.png using Guid(02d819acb2a433f4090d72d58c59a2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570e9eee1f62aae6095688707759b5d1') in 0.040709 seconds
+  Import took 0.045863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/3dModels/Hadi_s Assets/DH02/DH02_Main Body_Metallic.png
+  artifactKey: Guid(48d8d98083f341a4caa439f6c6228ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/DH02/DH02_Main Body_Metallic.png using Guid(48d8d98083f341a4caa439f6c6228ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f788f3927a01b872778cdc4dfd801f') in 0.045296 seconds
+  Import took 0.051108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/3dModels/Hadi_s Assets/DH02/DH02_WFrame_Height.png
+  artifactKey: Guid(59696a762158e344da7ad80ea2d47772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/DH02/DH02_WFrame_Height.png using Guid(59696a762158e344da7ad80ea2d47772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78dcb9a9f6b914789b82e6a05760d308') in 0.042451 seconds
+  Import took 0.047641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/3dModels/Hadi_s Assets/DH02/DH02_WFrame_Roughness.png
+  artifactKey: Guid(71767e19fc900c347966c1f6ddc350c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/DH02/DH02_WFrame_Roughness.png using Guid(71767e19fc900c347966c1f6ddc350c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba920902d58682e41b4cf73081f67b66') in 0.044829 seconds
+  Import took 0.051001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F2/F1_FDoor_Normal.png
+  artifactKey: Guid(7747e83734557cb40b511f32513d80ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F2/F1_FDoor_Normal.png using Guid(7747e83734557cb40b511f32513d80ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c8fa19abe388d953141d482f88a746') in 0.042957 seconds
+  Import took 0.048316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F1/F1_MainWalls_BaseColor.png
+  artifactKey: Guid(f47a7c2d988fde24f9a07baf3d1519d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F1/F1_MainWalls_BaseColor.png using Guid(f47a7c2d988fde24f9a07baf3d1519d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089b4722b0affd09d4043f769c12c8ea') in 0.047433 seconds
+  Import took 0.053400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F2/F1_WFrames_BaseColor.png
+  artifactKey: Guid(66e953cb98d4588449a47c12d9717fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F2/F1_WFrames_BaseColor.png using Guid(66e953cb98d4588449a47c12d9717fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e292ae50281e9c8e930a1ef13b42e93') in 0.040928 seconds
+  Import took 0.046292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F3/F3_MainWalls_Height.png
+  artifactKey: Guid(72e2df811b3eb7948adb08cb09c62138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F3/F3_MainWalls_Height.png using Guid(72e2df811b3eb7948adb08cb09c62138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836126ccfc56434b3b902ba720371711') in 0.048358 seconds
+  Import took 0.053143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F1/F1_MainWalls_Normal.png
+  artifactKey: Guid(0750f8b49b4d4c14fb38f503984c63d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F1/F1_MainWalls_Normal.png using Guid(0750f8b49b4d4c14fb38f503984c63d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5947f0fcb98e01a57b928ea1fd619a02') in 0.045916 seconds
+  Import took 0.052008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F1/F1_WFrames_Metallic.png
+  artifactKey: Guid(c66eeb55ba8f31547b791e2e5f405f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F1/F1_WFrames_Metallic.png using Guid(c66eeb55ba8f31547b791e2e5f405f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1413629f2eb299aaac72104949e5d91a') in 0.040081 seconds
+  Import took 0.046108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F2/F1_FDoor_BaseColor.png
+  artifactKey: Guid(dfe61f47414fdf84aa6577094ba577fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F2/F1_FDoor_BaseColor.png using Guid(dfe61f47414fdf84aa6577094ba577fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b83d9c03a5efb183bdf9639fd503036') in 0.041489 seconds
+  Import took 0.047856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F1/F1_FDoor_Normal.png
+  artifactKey: Guid(5f7196b136200b947b3f25753f03f577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F1/F1_FDoor_Normal.png using Guid(5f7196b136200b947b3f25753f03f577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c888adaefea789623244ebda30147eb') in 0.033782 seconds
+  Import took 0.039118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_FTank_Body_BaseColor.png
+  artifactKey: Guid(3ecc5b5058e07744ea67188d1f62549b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_FTank_Body_BaseColor.png using Guid(3ecc5b5058e07744ea67188d1f62549b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120fdce7d6b14293ca286f9232dadec8') in 0.038071 seconds
+  Import took 0.047301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Walls_Roughness.png
+  artifactKey: Guid(174b38f4d995a394e9b771eeb0c30a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Walls_Roughness.png using Guid(174b38f4d995a394e9b771eeb0c30a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2a80b961c8ff4defd0f8658f9903cb') in 0.044700 seconds
+  Import took 0.050075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_FTank_Body_Normal.png
+  artifactKey: Guid(7bfbc0600fa8d5b41a0b33e81646261d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_FTank_Body_Normal.png using Guid(7bfbc0600fa8d5b41a0b33e81646261d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eede906b5ec52a3ffde386b2447ed586') in 0.043326 seconds
+  Import took 0.051811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_FFront_Pips_Normal.png
+  artifactKey: Guid(10d0c362d633c5842a4b442471500b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_FFront_Pips_Normal.png using Guid(10d0c362d633c5842a4b442471500b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b82127376e7f4a8b3f9c2b2a7b164b') in 0.043651 seconds
+  Import took 0.053429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Walls_Normal.png
+  artifactKey: Guid(2f3059d41a0904849a4b87d901e28063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Walls_Normal.png using Guid(2f3059d41a0904849a4b87d901e28063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3786484e68aecaa40292c275632670ce') in 0.041846 seconds
+  Import took 0.051366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Floor_BaseColor.png
+  artifactKey: Guid(b6aa0cf5f74b9d047a5f37c635570cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Floor_BaseColor.png using Guid(b6aa0cf5f74b9d047a5f37c635570cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb0e2db5f0027f3737a5110b3914ecb') in 0.049970 seconds
+  Import took 0.056177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H1/H1_MainWalls_Height.png
+  artifactKey: Guid(98e1afad26765ca4cae173107940c6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H1/H1_MainWalls_Height.png using Guid(98e1afad26765ca4cae173107940c6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0942dbda4d7aea20cd50e446ab6b2b5e') in 0.044713 seconds
+  Import took 0.050846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H2/H2_MainWalls_Metallic.png
+  artifactKey: Guid(89622a2bed0f4f140a8b147f16921ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H2/H2_MainWalls_Metallic.png using Guid(89622a2bed0f4f140a8b147f16921ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9fe1743006d2cb2165c853ea87ca97') in 0.041547 seconds
+  Import took 0.047802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H1/H1_WFrame_Roughness.png
+  artifactKey: Guid(c571c58106cc5754795d8ba288a06e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H1/H1_WFrame_Roughness.png using Guid(c571c58106cc5754795d8ba288a06e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ebd24505005aedbdf08f5a237cbfab1') in 0.044247 seconds
+  Import took 0.050370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Side_Wall_Normal.png
+  artifactKey: Guid(f23a75f32e076324c8281b5db77d5daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Side_Wall_Normal.png using Guid(f23a75f32e076324c8281b5db77d5daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcc364a53e4704b9dd7bbcf1714330e') in 0.045474 seconds
+  Import took 0.050746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Walls_Height.png
+  artifactKey: Guid(44c67c5b6eaa2984894a20714830339e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Walls_Height.png using Guid(44c67c5b6eaa2984894a20714830339e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b1858a046472867a5cb9426ca932a9') in 0.041251 seconds
+  Import took 0.047162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Stairs_Normal.png
+  artifactKey: Guid(70fa56ef5c3a3ec43b151284e17646c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Stairs_Normal.png using Guid(70fa56ef5c3a3ec43b151284e17646c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0123ed03fdc70173285ebd4298f0a132') in 0.049650 seconds
+  Import took 0.055004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Stairs_Height.png
+  artifactKey: Guid(e02e3305eed723f4495d7cdbd6a66769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Stairs_Height.png using Guid(e02e3305eed723f4495d7cdbd6a66769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a6fac9d8b727480f4ebd93c63a7360') in 0.039072 seconds
+  Import took 0.047545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000693 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HS_Wall_BaseColor.png
+  artifactKey: Guid(fec11765d17639243b4c2760f95270e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HS_Wall_BaseColor.png using Guid(fec11765d17639243b4c2760f95270e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893831237b156c4ddc5e9f5889abf761') in 0.045846 seconds
+  Import took 0.052518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Gurde_Metallic.png
+  artifactKey: Guid(ca06e68a0c4865d469e590f693628c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Gurde_Metallic.png using Guid(ca06e68a0c4865d469e590f693628c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199f0276b2c6a90ccfa1f9df2a70168d') in 0.051627 seconds
+  Import took 0.059454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Door_Roughness.png
+  artifactKey: Guid(db71008ec6945b74f88cef4fa74f21a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Door_Roughness.png using Guid(db71008ec6945b74f88cef4fa74f21a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2aaecd4696888ad68c0a07bc41a4066') in 0.049756 seconds
+  Import took 0.055584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_LowerGurde_Height.png
+  artifactKey: Guid(2bd2c80ab5514e144bae09f2cdeb7153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_LowerGurde_Height.png using Guid(2bd2c80ab5514e144bae09f2cdeb7153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1bf290e95407e3525e317d82d6b055') in 0.038138 seconds
+  Import took 0.048087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_STanks_Height.png
+  artifactKey: Guid(1c53ce75ad4d29b4b90de30ae9c9f4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_STanks_Height.png using Guid(1c53ce75ad4d29b4b90de30ae9c9f4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca4a90d09cf86218cdc70c7c53abbe7') in 0.043010 seconds
+  Import took 0.050290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_FFront_Pips_BaseColor.png
+  artifactKey: Guid(b264e950c6b005d4cad5f8557f2950f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_FFront_Pips_BaseColor.png using Guid(b264e950c6b005d4cad5f8557f2950f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79b5e4798e5e58aeeee5b5fa1175de9') in 0.043332 seconds
+  Import took 0.048701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H1/H1_WFrame_Normal.png
+  artifactKey: Guid(78e9ba9de1b592147926674ddb4d01a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H1/H1_WFrame_Normal.png using Guid(78e9ba9de1b592147926674ddb4d01a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbccc2d1292d05b6f60b7608805dac32') in 0.044926 seconds
+  Import took 0.050052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_FGlass_Frame_BaseColor.png
+  artifactKey: Guid(d4c329dc3a7b0d446805fac06657e149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_FGlass_Frame_BaseColor.png using Guid(d4c329dc3a7b0d446805fac06657e149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe74a3dcc28effbbe43b92a5770ab00') in 0.040290 seconds
+  Import took 0.051388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Door_BaseColor.png
+  artifactKey: Guid(33274d8ba29c3b84880fe87091ef8f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Door_BaseColor.png using Guid(33274d8ba29c3b84880fe87091ef8f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffb3863d36dbf74b969babac80d6c3d') in 0.053017 seconds
+  Import took 0.061642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Wall_Roughness.png
+  artifactKey: Guid(7a683536c4cf9614d8a516430d87ed8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Wall_Roughness.png using Guid(7a683536c4cf9614d8a516430d87ed8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2eee1479d94fe498d81bcaee2c27ea') in 0.042367 seconds
+  Import took 0.048174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/3dModels/Hadi_s Assets/SC/SC_MainWalls_Metallic.png
+  artifactKey: Guid(412f4ea1f64375b49ad142d9571c0298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/SC/SC_MainWalls_Metallic.png using Guid(412f4ea1f64375b49ad142d9571c0298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194ad45fbb8e20d90b6df07d505a282b') in 0.041142 seconds
+  Import took 0.046636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/3dModels/Hadi_s Assets/SC/SC_WFrame_BaseColor.png
+  artifactKey: Guid(63e4135cd7f3f2341a584c6b69117dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/SC/SC_WFrame_BaseColor.png using Guid(63e4135cd7f3f2341a584c6b69117dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875afd66965d43ba90fd616f836496de') in 0.044002 seconds
+  Import took 0.049303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H2/H2_Upstairs_Metallic.png
+  artifactKey: Guid(30497f6066d6bdb4ca0b371fa1151193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H2/H2_Upstairs_Metallic.png using Guid(30497f6066d6bdb4ca0b371fa1151193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc60ba0b7324e2cc69131f4ba1608fb') in 0.039394 seconds
+  Import took 0.047711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Stairs_Roughness.png
+  artifactKey: Guid(6215b8a89e85b7a4fbb413b376d36685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Stairs_Roughness.png using Guid(6215b8a89e85b7a4fbb413b376d36685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34ea2ea2d6cd97e67b3e2015efb5f3a') in 0.045676 seconds
+  Import took 0.052929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Wall_Height.png
+  artifactKey: Guid(38cd70f7c12e15e44bf511b3c6807295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Wall_Height.png using Guid(38cd70f7c12e15e44bf511b3c6807295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af34eb92c52c85c00a9b659fee89d14') in 0.057958 seconds
+  Import took 0.067288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Gurde_Normal.png
+  artifactKey: Guid(fba8b6f3b11ad7643aac4da00f013fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Gurde_Normal.png using Guid(fba8b6f3b11ad7643aac4da00f013fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45239e631e5a0ca343ac04f63cffac6b') in 0.058223 seconds
+  Import took 0.064745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/3dModels/Hadi_s Assets/O1/O1_O1_MainWalls_BaseColor.png
+  artifactKey: Guid(a9f72b00a1c80764d9a84201d39a2720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/O1/O1_O1_MainWalls_BaseColor.png using Guid(a9f72b00a1c80764d9a84201d39a2720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabb680621e9fdb8df0db4fb3422cd3f') in 0.044277 seconds
+  Import took 0.051262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_FFront_Pips_Height.png
+  artifactKey: Guid(8a72f759a4f864748af64f45bd3509a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_FFront_Pips_Height.png using Guid(8a72f759a4f864748af64f45bd3509a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a64230d40e815684377c53f13f01885') in 0.037034 seconds
+  Import took 0.044090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/3dModels/Hadi_s Assets/DH02/DH02_Main Body_Height.png
+  artifactKey: Guid(5e80b7495ed4a9c42a5c41159c1a7453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/DH02/DH02_Main Body_Height.png using Guid(5e80b7495ed4a9c42a5c41159c1a7453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647a8558bef9b543c01bfad0fb128564') in 0.042440 seconds
+  Import took 0.049915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_H_Roof_BaseColor.png
+  artifactKey: Guid(2db4f9cc68c4d21419b3322f12eec6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_H_Roof_BaseColor.png using Guid(2db4f9cc68c4d21419b3322f12eec6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b731e7ed6ed7e9f22b7cbbfe9ad62e3') in 0.039263 seconds
+  Import took 0.047115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_FTank_Body_Roughness.png
+  artifactKey: Guid(507583ae35b4ec940b30dca9502b7ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_FTank_Body_Roughness.png using Guid(507583ae35b4ec940b30dca9502b7ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9aa1e0d86aff1b74940d383703819f1') in 0.041827 seconds
+  Import took 0.048463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000593 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_LowerGurde_BaseColor.png
+  artifactKey: Guid(292dd8ece9caca54b93e5dc66f777bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_LowerGurde_BaseColor.png using Guid(292dd8ece9caca54b93e5dc66f777bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd084458e55c656039c39bd7e20a86bdf') in 0.040281 seconds
+  Import took 0.045460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F1/F1_MainWalls_Roughness.png
+  artifactKey: Guid(c06b671f9f030504ca58b505b4447ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F1/F1_MainWalls_Roughness.png using Guid(c06b671f9f030504ca58b505b4447ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838a749db68371e356827804a5dfe859') in 0.041291 seconds
+  Import took 0.048486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_STanks_Metallic.png
+  artifactKey: Guid(2438610c589ac6844b9ddfad8c2c7aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_STanks_Metallic.png using Guid(2438610c589ac6844b9ddfad8c2c7aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53cdefde6f4128562523b1d18594ca1') in 0.043230 seconds
+  Import took 0.049605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F1/F1_WFrames_Normal.png
+  artifactKey: Guid(6344cddb116a1154ab3209042f6c8a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F1/F1_WFrames_Normal.png using Guid(6344cddb116a1154ab3209042f6c8a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f283f606d087e9a75ffcea03a73856ed') in 0.040138 seconds
+  Import took 0.045345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_H_Roof_Height.png
+  artifactKey: Guid(87934366806411d4b83040983f019591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_H_Roof_Height.png using Guid(87934366806411d4b83040983f019591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ef39115e6c1f260c62c7e13518c5ec') in 0.042409 seconds
+  Import took 0.048637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H1/H1_MainWalls_Metallic.png
+  artifactKey: Guid(c7178fac98948f74ca17f677e4bef6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H1/H1_MainWalls_Metallic.png using Guid(c7178fac98948f74ca17f677e4bef6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f26c025418787e001b714d79eb4b68') in 0.038119 seconds
+  Import took 0.046535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Stairs_Metallic.png
+  artifactKey: Guid(6715b5bc7b474b04f9e38d2370133618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Stairs_Metallic.png using Guid(6715b5bc7b474b04f9e38d2370133618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22d7ebcf86f2dfbb2e04c4e8998a303') in 0.036373 seconds
+  Import took 0.042011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F2/F1_WFrames_Roughness.png
+  artifactKey: Guid(b27341526f2927b45b04a05b8c622e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F2/F1_WFrames_Roughness.png using Guid(b27341526f2927b45b04a05b8c622e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624b095470ade0f216905da2dfd5ec2d') in 0.038269 seconds
+  Import took 0.046854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/3dModels/Hadi_s Assets/O1/O1_O1_MainWalls_Roughness.png
+  artifactKey: Guid(ed75771c78e8cb840b996e2dd60d6a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/O1/O1_O1_MainWalls_Roughness.png using Guid(ed75771c78e8cb840b996e2dd60d6a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68103e08d25aac764e862281ee560ab') in 0.047003 seconds
+  Import took 0.052253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F2/F1_MainWalls_Roughness.png
+  artifactKey: Guid(80ff83a4e4d09a94f86c7fb58900ee8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F2/F1_MainWalls_Roughness.png using Guid(80ff83a4e4d09a94f86c7fb58900ee8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bdff2d7b02c5c75e67ad17e33b2553') in 0.041871 seconds
+  Import took 0.047479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_FTop_Pips_BaseColor.png
+  artifactKey: Guid(e38c1e4c447a28d4ba3c75e3f03310a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_FTop_Pips_BaseColor.png using Guid(e38c1e4c447a28d4ba3c75e3f03310a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04fd1b88007eec1f9db222c53d668ad') in 0.042247 seconds
+  Import took 0.048194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Ceiling_Metallic.png
+  artifactKey: Guid(3534242de2eacb4428c20001d46eb2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Ceiling_Metallic.png using Guid(3534242de2eacb4428c20001d46eb2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ccc862cfd9ec593796bdc9ada61424') in 0.041331 seconds
+  Import took 0.046472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_H_Roof_Normal.png
+  artifactKey: Guid(1051386ddf088e448a34bda8f2fce8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_H_Roof_Normal.png using Guid(1051386ddf088e448a34bda8f2fce8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b673cc4b1fab24ebc36d9921b504cbe') in 0.044000 seconds
+  Import took 0.048996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Side_Wall_Metallic.png
+  artifactKey: Guid(2605062282480b7489f2ba23ccb16637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Side_Wall_Metallic.png using Guid(2605062282480b7489f2ba23ccb16637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9d656fc77aeebf355069ba4e5284d2') in 0.039106 seconds
+  Import took 0.046508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_FGlass_Frame_Height.png
+  artifactKey: Guid(37d361e6b83481d40af92add714caba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_FGlass_Frame_Height.png using Guid(37d361e6b83481d40af92add714caba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7632ce4614100556773895e6d8255860') in 0.037409 seconds
+  Import took 0.043401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_FTop_Pips_Metallic.png
+  artifactKey: Guid(05e9412ff43703a47bf75e52390db176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_FTop_Pips_Metallic.png using Guid(05e9412ff43703a47bf75e52390db176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757b8283f4c22dd2fdde91a8ab9d566f') in 0.040049 seconds
+  Import took 0.045539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/3dModels/Hadi_s Assets/SC/SC_Banner_Height.png
+  artifactKey: Guid(1e8c92187f02c594da1c64d3994ab1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/SC/SC_Banner_Height.png using Guid(1e8c92187f02c594da1c64d3994ab1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefd21a2713d879f9f4529094196f330') in 0.044618 seconds
+  Import took 0.050236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Walls_BaseColor.png
+  artifactKey: Guid(1f7b8ef709fbe5c4d97bda0e067f1dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Walls_BaseColor.png using Guid(1f7b8ef709fbe5c4d97bda0e067f1dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8c59b8b4d9b0694cc68e9a05d2f4ef') in 0.042435 seconds
+  Import took 0.047892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_FTop_Pips_Roughness.png
+  artifactKey: Guid(60b5b1eb97f337145a0668dedacf9bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_FTop_Pips_Roughness.png using Guid(60b5b1eb97f337145a0668dedacf9bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d98493224eb99c5279a472d5b6492f8') in 0.045217 seconds
+  Import took 0.050275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Gurde_Height.png
+  artifactKey: Guid(d3c6e1532b1ea42438be2ae0a7ed9860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Gurde_Height.png using Guid(d3c6e1532b1ea42438be2ae0a7ed9860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a8a04f63839f85dd39438e7a7e8685') in 0.043198 seconds
+  Import took 0.048143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Wall_Metallic.png
+  artifactKey: Guid(dd498b2a4ff6cb045b0464822cf7c431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Wall_Metallic.png using Guid(dd498b2a4ff6cb045b0464822cf7c431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfe6270caf50e95c6b66e71d46771ba') in 0.043104 seconds
+  Import took 0.048285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000773 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F2/F1_MainWalls_Normal.png
+  artifactKey: Guid(ee397f3798b58d9429ae2b1bde76a6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F2/F1_MainWalls_Normal.png using Guid(ee397f3798b58d9429ae2b1bde76a6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe6b232dab3bd7b27a454b72fc0e177') in 0.046542 seconds
+  Import took 0.052337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F3/F3_MainWalls_BaseColor.png
+  artifactKey: Guid(28055eaac76ca98468e3c1604c4d31fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F3/F3_MainWalls_BaseColor.png using Guid(28055eaac76ca98468e3c1604c4d31fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1effa7101339f8e414dffd97cb84353') in 0.048579 seconds
+  Import took 0.053931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_LowerGurde_Roughness.png
+  artifactKey: Guid(7ba652c542723304ba286f5bf0f7112f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_LowerGurde_Roughness.png using Guid(7ba652c542723304ba286f5bf0f7112f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe93495e99d07348fc0d6125e1e9cde') in 0.043314 seconds
+  Import took 0.050158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Floor_Height.png
+  artifactKey: Guid(e719ed28e635155499c6c0fd84f112e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Floor_Height.png using Guid(e719ed28e635155499c6c0fd84f112e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179bbd6f33f8e698ff70fb7fa9a950ae') in 0.039627 seconds
+  Import took 0.047206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H1/H1_WFrame_Metallic.png
+  artifactKey: Guid(c22c20bc06ff98a459682b372b844598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H1/H1_WFrame_Metallic.png using Guid(c22c20bc06ff98a459682b372b844598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c754a58f06b10dd9b80f2e88f54c450') in 0.043625 seconds
+  Import took 0.054347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F3/F3_MainWalls_Roughness.png
+  artifactKey: Guid(78b385fc62ef24c459a34705f479095b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F3/F3_MainWalls_Roughness.png using Guid(78b385fc62ef24c459a34705f479095b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b593012761ecfd2a092988bd4d9078f') in 0.040329 seconds
+  Import took 0.046034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Gurde_BaseColor.png
+  artifactKey: Guid(8fdf2b1616dcc6e4c9ff728d18e65f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Gurde_BaseColor.png using Guid(8fdf2b1616dcc6e4c9ff728d18e65f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb0068303a64333523a4e7f615d2c20') in 0.039282 seconds
+  Import took 0.047080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Floor_Normal.png
+  artifactKey: Guid(22a5cb594ca4f174c984e113678a0834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Floor_Normal.png using Guid(22a5cb594ca4f174c984e113678a0834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8575f15497cc2f2aedff1c1fce47fd96') in 0.047952 seconds
+  Import took 0.054409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000778 seconds.
+  path: Assets/3dModels/Hadi_s Assets/SC/SC_MainWalls_BaseColor.png
+  artifactKey: Guid(385d69db13b45fa4690aed219f303c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/SC/SC_MainWalls_BaseColor.png using Guid(385d69db13b45fa4690aed219f303c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216c64dd721656e0639310c733524ef2') in 0.039988 seconds
+  Import took 0.045881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H1/H1_WFrame_BaseColor.png
+  artifactKey: Guid(05c1eb13f300f4a43b764c9a81d10732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H1/H1_WFrame_BaseColor.png using Guid(05c1eb13f300f4a43b764c9a81d10732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3761560087d9c44de165c2d7730f8b9c') in 0.041244 seconds
+  Import took 0.050917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F1/F1_WFrames_Roughness.png
+  artifactKey: Guid(a26570752584864438a5e695e242489b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F1/F1_WFrames_Roughness.png using Guid(a26570752584864438a5e695e242489b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149617a6f1500e3f94e7b0857ca749a0') in 0.022578 seconds
+  Import took 0.030814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H1/H1_MainWalls_BaseColor.png
+  artifactKey: Guid(3272d07b9abfa1b43b7ab9ac15384e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H1/H1_MainWalls_BaseColor.png using Guid(3272d07b9abfa1b43b7ab9ac15384e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30aaaa22fd5b5dd83d0701533a43dc7a') in 0.046964 seconds
+  Import took 0.057986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Gurde_Roughness.png
+  artifactKey: Guid(32ea699ff5feedd48965c2aaa2e7b50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Gurde_Roughness.png using Guid(32ea699ff5feedd48965c2aaa2e7b50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af520395cef92ce2a29ab85f79c8bc8') in 0.052652 seconds
+  Import took 0.059334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H2/H2_WFrames_Normal.png
+  artifactKey: Guid(c032238f0fe1da84f9c470d5bb70d472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H2/H2_WFrames_Normal.png using Guid(c032238f0fe1da84f9c470d5bb70d472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e0d0e4ed9001ad910163b7ebff7a54') in 0.051576 seconds
+  Import took 0.062908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Wall_Normal.png
+  artifactKey: Guid(295e250b472f5e54984737b94b82304c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Wall_Normal.png using Guid(295e250b472f5e54984737b94b82304c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0558c8b1b2521ac4190a0f18872e642') in 0.049796 seconds
+  Import took 0.060177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Wall_BaseColor.png
+  artifactKey: Guid(ad7eba25724892442a6dc8abd15f9d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Wall_BaseColor.png using Guid(ad7eba25724892442a6dc8abd15f9d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de25acf73ff94059aefbf9baa6a5382e') in 0.038508 seconds
+  Import took 0.045410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000607 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_LowerGurde_Normal.png
+  artifactKey: Guid(82d4acfec8ca1a1479e75ac5c0d3814e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_LowerGurde_Normal.png using Guid(82d4acfec8ca1a1479e75ac5c0d3814e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb453641850e628e0a59396de24d8724') in 0.047972 seconds
+  Import took 0.055145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000986 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Side_Wall_BaseColor.png
+  artifactKey: Guid(e9cde45bbd7be294c96c4187d1ca2dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Side_Wall_BaseColor.png using Guid(e9cde45bbd7be294c96c4187d1ca2dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110146d21b4f130fd577fa5a70e53a32') in 0.042050 seconds
+  Import took 0.049440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_FFront_Pips_Roughness.png
+  artifactKey: Guid(4f18ea47789bc194690fb00d0b1dca12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_FFront_Pips_Roughness.png using Guid(4f18ea47789bc194690fb00d0b1dca12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c866a49a046fbfa4aea83e8d5c9fe02c') in 0.042173 seconds
+  Import took 0.048160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HS_Wall_Roughness.png
+  artifactKey: Guid(fa371145f5306144e9da04a7cf4d4611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HS_Wall_Roughness.png using Guid(fa371145f5306144e9da04a7cf4d4611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee041000ad8f20c946655ec70c83bb4') in 0.044952 seconds
+  Import took 0.049800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/3dModels/Hadi_s Assets/SC/SC_MainWalls_Height.png
+  artifactKey: Guid(e7f8da954a94518498c8af498c4980a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/SC/SC_MainWalls_Height.png using Guid(e7f8da954a94518498c8af498c4980a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc070516fcd25cdeff398a107c62e5ed') in 0.039877 seconds
+  Import took 0.045989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F2/F1_WFrames_Metallic.png
+  artifactKey: Guid(67a027179fa47fd46ada58b712a223ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F2/F1_WFrames_Metallic.png using Guid(67a027179fa47fd46ada58b712a223ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635f1b0d8c420b24a4997cc89f2f18da') in 0.016684 seconds
+  Import took 0.022064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_FGlass_Frame_Metallic.png
+  artifactKey: Guid(ff9a8b5030566b34c9ba323ec3caf501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_FGlass_Frame_Metallic.png using Guid(ff9a8b5030566b34c9ba323ec3caf501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f7a179d071cb485a511e134410e9d85') in 0.040790 seconds
+  Import took 0.047135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HS_Wall_Height.png
+  artifactKey: Guid(0833e64fa3144774d9ac6165433b10e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HS_Wall_Height.png using Guid(0833e64fa3144774d9ac6165433b10e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d148803eb8be2c0f18f56f1aca26ce') in 0.044780 seconds
+  Import took 0.050471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HS_Wall_Metallic.png
+  artifactKey: Guid(80fa5a9c49fa54c4aba6379222f8d0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HS_Wall_Metallic.png using Guid(80fa5a9c49fa54c4aba6379222f8d0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a98c048753204ceddb09ba62e0c19d') in 0.035186 seconds
+  Import took 0.045153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Side_Wall_Height.png
+  artifactKey: Guid(0b03373ec6f359842b061907bfc3a69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Side_Wall_Height.png using Guid(0b03373ec6f359842b061907bfc3a69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1561541bc900d1bd5de7511409d58525') in 0.037583 seconds
+  Import took 0.043096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F1/F1_FDoor_BaseColor.png
+  artifactKey: Guid(90557622186f9724eab1efcbcbce9c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F1/F1_FDoor_BaseColor.png using Guid(90557622186f9724eab1efcbcbce9c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3442fea93a4cd8f3aee7f8b62a1ec31') in 0.038934 seconds
+  Import took 0.047114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/3dModels/Hadi_s Assets/SC/SC_MainWalls_Normal.png
+  artifactKey: Guid(ba1e7d858c788b74c98b351df42485d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/SC/SC_MainWalls_Normal.png using Guid(ba1e7d858c788b74c98b351df42485d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbca6647146af6b992d558dea83efc0b') in 0.047838 seconds
+  Import took 0.053444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F1/F1_FDoor_Metallic.png
+  artifactKey: Guid(28b2ca980026a1f4b8e7b3e0ab5b6179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F1/F1_FDoor_Metallic.png using Guid(28b2ca980026a1f4b8e7b3e0ab5b6179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f8c621091e967e5cb8de1388bd6c1d') in 0.036063 seconds
+  Import took 0.047383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/3dModels/Hadi_s Assets/SC/SC_MainWalls_Roughness.png
+  artifactKey: Guid(ced13dad2fcd2664eb92372861de47a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/SC/SC_MainWalls_Roughness.png using Guid(ced13dad2fcd2664eb92372861de47a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd57aedc49bb77b27f615e32a970fa0') in 0.046600 seconds
+  Import took 0.052426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001674 seconds.
+  path: Assets/3dModels/Hadi_s Assets/SC/SC_Banner_Metallic.png
+  artifactKey: Guid(84eb7689984b96349966c15145b9f02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/SC/SC_Banner_Metallic.png using Guid(84eb7689984b96349966c15145b9f02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8ad1f82d6e159f1d46cc472d74bf48') in 0.035837 seconds
+  Import took 0.043103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_STanks_BaseColor.png
+  artifactKey: Guid(a1d37c9fb0776d9419197aaef7e7d73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_STanks_BaseColor.png using Guid(a1d37c9fb0776d9419197aaef7e7d73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd967e62a72e63ac83d50cd3134311cc4') in 0.039923 seconds
+  Import took 0.046145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HS_Wall_Normal.png
+  artifactKey: Guid(44320c888a30cae48a79df56a3d824e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HS_Wall_Normal.png using Guid(44320c888a30cae48a79df56a3d824e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca66019fc01a704c5abb7d450654ece') in 0.054966 seconds
+  Import took 0.063017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/3dModels/Hadi_s Assets/SC/SC_Banner_Normal.png
+  artifactKey: Guid(a6e57fd403341824f94ae91173c0b526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/SC/SC_Banner_Normal.png using Guid(a6e57fd403341824f94ae91173c0b526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f807f238f49db19ee27c661767cfc76') in 0.038413 seconds
+  Import took 0.045558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000598 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Door_Height.png
+  artifactKey: Guid(f5af4904af676f4419809e86b566bc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Door_Height.png using Guid(f5af4904af676f4419809e86b566bc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a865aab7ed4954dd4bfeefed45b744') in 0.038899 seconds
+  Import took 0.046053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H2/H2_Upstairs_Height.png
+  artifactKey: Guid(fad2b567b4eea2a4997426a3c2e1d02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H2/H2_Upstairs_Height.png using Guid(fad2b567b4eea2a4997426a3c2e1d02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da8960bfdc11b0689afbb551c9a9189') in 0.038689 seconds
+  Import took 0.045161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H2/H2_MainWalls_Height.png
+  artifactKey: Guid(895171855d559144a8b4a56b3e77a07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H2/H2_MainWalls_Height.png using Guid(895171855d559144a8b4a56b3e77a07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c130d61297f44c50f70b3ee2be04e13a') in 0.042266 seconds
+  Import took 0.047642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H2/H2_WFrames_Metallic.png
+  artifactKey: Guid(1e00a57af0134a9479f1e4081669d996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H2/H2_WFrames_Metallic.png using Guid(1e00a57af0134a9479f1e4081669d996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff63a3434e15a283d089013e0b222e5') in 0.037873 seconds
+  Import took 0.046105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/3dModels/Hadi_s Assets/SC/SC_WFrame_Metallic.png
+  artifactKey: Guid(fa93abd5118dfbb4d8fbb99bb9bff58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/SC/SC_WFrame_Metallic.png using Guid(fa93abd5118dfbb4d8fbb99bb9bff58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0b4dea68f24e79f793e6966a99469b') in 0.036267 seconds
+  Import took 0.043744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Walls_Metallic.png
+  artifactKey: Guid(8b4f3aec653444e4da88f94ff388a2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Walls_Metallic.png using Guid(8b4f3aec653444e4da88f94ff388a2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd544c5bb04c35e4b0a0c28802db45145') in 0.034898 seconds
+  Import took 0.044696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F1/F1_FDoor_Height.png
+  artifactKey: Guid(057580e699520aa46b4bafbe69339745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F1/F1_FDoor_Height.png using Guid(057580e699520aa46b4bafbe69339745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d031cd5bc050977bbe3244c705aa34') in 0.034884 seconds
+  Import took 0.043379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H2/H2_Upstairs_Normal.png
+  artifactKey: Guid(2505087e6e3b0b245939038ad9a1a205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H2/H2_Upstairs_Normal.png using Guid(2505087e6e3b0b245939038ad9a1a205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac5fda1057c3c9094cb165fd5a519f6') in 0.039010 seconds
+  Import took 0.044259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F2/F1_MainWalls_Metallic.png
+  artifactKey: Guid(567bbb0cf54216f43913519a97d547ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F2/F1_MainWalls_Metallic.png using Guid(567bbb0cf54216f43913519a97d547ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5057aa53727ab5d48e659ab46e51a60') in 0.038603 seconds
+  Import took 0.045830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Ceiling_Height.png
+  artifactKey: Guid(ee978794505812f47ae892540431e4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Ceiling_Height.png using Guid(ee978794505812f47ae892540431e4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cac7b0529c23e587d3516af5f088613') in 0.040298 seconds
+  Import took 0.046406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H1/H1_MainWalls_Roughness.png
+  artifactKey: Guid(c65b7998d04300a41bb99e94c545383e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H1/H1_MainWalls_Roughness.png using Guid(c65b7998d04300a41bb99e94c545383e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b525a37487bcdc712fd50a3d04826c3') in 0.042365 seconds
+  Import took 0.047718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_H_Roof_Roughness.png
+  artifactKey: Guid(2e26525d8b13719458c76a88ae72b729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_H_Roof_Roughness.png using Guid(2e26525d8b13719458c76a88ae72b729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c04fa31b002ab27da52a0ae417548e') in 0.038818 seconds
+  Import took 0.047623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F2/F1_WFrames_Height.png
+  artifactKey: Guid(f415cb87e412cf14a85ffea8a234c789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F2/F1_WFrames_Height.png using Guid(f415cb87e412cf14a85ffea8a234c789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2bc70c2978a95976e58bd34aa254cc2') in 0.038990 seconds
+  Import took 0.044302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/3dModels/Hadi_s Assets/O1/O1_O1_MainWalls_Normal.png
+  artifactKey: Guid(a0e3d3827649e1f4aac649c0dc3c92d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/O1/O1_O1_MainWalls_Normal.png using Guid(a0e3d3827649e1f4aac649c0dc3c92d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932d30fd511ef45a4a69562bd2a038e5') in 0.041424 seconds
+  Import took 0.048187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F1/F1_FDoor_Roughness.png
+  artifactKey: Guid(e22ec7231adaf044fb0991c8b4c9d2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F1/F1_FDoor_Roughness.png using Guid(e22ec7231adaf044fb0991c8b4c9d2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75776b7ad7a690aced9dafe02ec2480b') in 0.037100 seconds
+  Import took 0.045712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000624 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Door_Metallic.png
+  artifactKey: Guid(8b609cc3f7ea2294fb706a94a40bae72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Door_Metallic.png using Guid(8b609cc3f7ea2294fb706a94a40bae72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b69d482c588641b9de6fd1cb32e067') in 0.038662 seconds
+  Import took 0.045694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Side_Wall_Roughness.png
+  artifactKey: Guid(b47486dbbd2f1a248b306553bf3c73a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Side_Wall_Roughness.png using Guid(b47486dbbd2f1a248b306553bf3c73a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c06ff7554ed3768783bb56267fbbcd') in 0.046714 seconds
+  Import took 0.052116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_FGlass_Frame_Normal.png
+  artifactKey: Guid(dc15842c41cb73844a23ad6f3d3a273a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_FGlass_Frame_Normal.png using Guid(dc15842c41cb73844a23ad6f3d3a273a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4904acc1b50addad3b279115937bc332') in 0.039822 seconds
+  Import took 0.044899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/3dModels/Hadi_s Assets/SC/SC_WFrame_Height.png
+  artifactKey: Guid(5170f914f78f3bf48a780a2ad2249c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/SC/SC_WFrame_Height.png using Guid(5170f914f78f3bf48a780a2ad2249c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3483dba05b1de585b5c836bba010ef') in 0.038344 seconds
+  Import took 0.045629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/3dModels/Hadi_s Assets/DH02/DH02_WFrame_Normal.png
+  artifactKey: Guid(77ea8e3ea97f80347a59e76d5979370d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/DH02/DH02_WFrame_Normal.png using Guid(77ea8e3ea97f80347a59e76d5979370d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413a0f97db5b765b4aab51bebab6cd1a') in 0.041491 seconds
+  Import took 0.047073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/3dModels/Hadi_s Assets/DH02/DH02_Main Body_BaseColor.png
+  artifactKey: Guid(fcb49e68133d2d74ea90ae8af1a5e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/DH02/DH02_Main Body_BaseColor.png using Guid(fcb49e68133d2d74ea90ae8af1a5e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3faff240e0b8579304322738126ec298') in 0.020895 seconds
+  Import took 0.027362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_FTank_Body_Height.png
+  artifactKey: Guid(794aa1fa9f44bdd4b9002c761dc9f9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_FTank_Body_Height.png using Guid(794aa1fa9f44bdd4b9002c761dc9f9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b52be5db832a9d79701504cf84f3dbb') in 0.042455 seconds
+  Import took 0.049496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_STanks_Normal.png
+  artifactKey: Guid(3dee5883e85861e4f9491dfabc546e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_STanks_Normal.png using Guid(3dee5883e85861e4f9491dfabc546e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358b148b17d6a2375d15ca2fc19ad971') in 0.045992 seconds
+  Import took 0.053174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Ceiling_Normal.png
+  artifactKey: Guid(530fac7cb118632419d77a3b7f442c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Ceiling_Normal.png using Guid(530fac7cb118632419d77a3b7f442c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfdb4416c12b0abed2683fda8f7b68d') in 0.051624 seconds
+  Import took 0.059224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_FTop_Pips_Height.png
+  artifactKey: Guid(f8597d72e4642cd4784e6c9d020a1bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_FTop_Pips_Height.png using Guid(f8597d72e4642cd4784e6c9d020a1bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba8ab8071aea0b0b4cb18842e08da7a') in 0.038417 seconds
+  Import took 0.045147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_FGlass_Frame_Roughness.png
+  artifactKey: Guid(e0b74b46c0a7c0b458ea8657dfcee59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_FGlass_Frame_Roughness.png using Guid(e0b74b46c0a7c0b458ea8657dfcee59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913f4e879b66f5a35bb3173bf8e6978f') in 0.038867 seconds
+  Import took 0.044152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H2/H2_Upstairs_BaseColor.png
+  artifactKey: Guid(e5b86d728026dbb4c8474e6c8d7a7233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H2/H2_Upstairs_BaseColor.png using Guid(e5b86d728026dbb4c8474e6c8d7a7233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a61d91eaf2440fe95e9b7ec248df3b') in 0.041300 seconds
+  Import took 0.049178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H2/H2_WFrames_BaseColor.png
+  artifactKey: Guid(46ee88cad33bc024bae345aa5720d6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H2/H2_WFrames_BaseColor.png using Guid(46ee88cad33bc024bae345aa5720d6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35bb9334e8c3e3f353d334c13c2f1454') in 0.043027 seconds
+  Import took 0.047873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F2/F1_FDoor_Height.png
+  artifactKey: Guid(ea71cd3dcd915c549930818cf3412f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F2/F1_FDoor_Height.png using Guid(ea71cd3dcd915c549930818cf3412f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed1782c5c9b697f2bd0d6e8b9699ac1') in 0.015173 seconds
+  Import took 0.019997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000901 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F1/F1_MainWalls_Height.png
+  artifactKey: Guid(26c3375b489b82b4c9da47c3a1d6eb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F1/F1_MainWalls_Height.png using Guid(26c3375b489b82b4c9da47c3a1d6eb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75d949cc785671b4bb05478091a9449') in 0.039260 seconds
+  Import took 0.045660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Floor_Metallic.png
+  artifactKey: Guid(22523ae92443eae4a9f1a662bed313a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Floor_Metallic.png using Guid(22523ae92443eae4a9f1a662bed313a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a495f6be9b5cc2621362fe8cb219e1') in 0.036185 seconds
+  Import took 0.047522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F1/F1_MainWalls_Metallic.png
+  artifactKey: Guid(d468771615b00504280d7f4506591733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F1/F1_MainWalls_Metallic.png using Guid(d468771615b00504280d7f4506591733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798010b92f50c709be08212c2607493c') in 0.017454 seconds
+  Import took 0.024912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H2/H2_WFrames_Roughness.png
+  artifactKey: Guid(396ddaee962e3674683068dd1527d155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H2/H2_WFrames_Roughness.png using Guid(396ddaee962e3674683068dd1527d155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56929d02e703499eae176578a7763651') in 0.038570 seconds
+  Import took 0.044069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Stairs_BaseColor.png
+  artifactKey: Guid(80b114e35d7cb554b9acbd3a840e28aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Stairs_BaseColor.png using Guid(80b114e35d7cb554b9acbd3a840e28aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2fd3e87bae4c7c7b299f1095fe19520') in 0.046013 seconds
+  Import took 0.053632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H1/H1_WFrame_Height.png
+  artifactKey: Guid(2c6ebb0e6badef649bfb8b35db3ed2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H1/H1_WFrame_Height.png using Guid(2c6ebb0e6badef649bfb8b35db3ed2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ce211c810ba13499c2981a03d86962') in 0.037230 seconds
+  Import took 0.042920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F2/F1_WFrames_Normal.png
+  artifactKey: Guid(1562e365ab40bed4fb185547903ece7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F2/F1_WFrames_Normal.png using Guid(1562e365ab40bed4fb185547903ece7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50c7a7963b97dd51e9682cbf4e63791') in 0.023183 seconds
+  Import took 0.030071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F3/F3_MainWalls_Metallic.png
+  artifactKey: Guid(56fb8385e1687f540b70f4d62044293f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F3/F3_MainWalls_Metallic.png using Guid(56fb8385e1687f540b70f4d62044293f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44a96ac18307b53128f6e71c35ed195') in 0.036120 seconds
+  Import took 0.044093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/3dModels/Hadi_s Assets/O1/O1_O1_MainWalls_Height.png
+  artifactKey: Guid(80e15d3901eb6c24ab435af38634b7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/O1/O1_O1_MainWalls_Height.png using Guid(80e15d3901eb6c24ab435af38634b7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de01b6ce67d2be5cc126d56818ea531d') in 0.037096 seconds
+  Import took 0.043661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H2/H2_MainWalls_Normal.png
+  artifactKey: Guid(ed7c7769a7c19e3408e190227817dfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H2/H2_MainWalls_Normal.png using Guid(ed7c7769a7c19e3408e190227817dfee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba665b6d0748805991d3f8ab8503a512') in 0.044072 seconds
+  Import took 0.053902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/3dModels/Hadi_s Assets/SC/SC_Banner_BaseColor.png
+  artifactKey: Guid(ffbce84e2eb59de4c86a198bc5ea01fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/SC/SC_Banner_BaseColor.png using Guid(ffbce84e2eb59de4c86a198bc5ea01fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4732b0a170423a1213d7c7a108ca7b06') in 0.039958 seconds
+  Import took 0.045567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/3dModels/Hadi_s Assets/SC/SC_WFrame_Normal.png
+  artifactKey: Guid(e76dd3b801db4574ab250c44d1d09358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/SC/SC_WFrame_Normal.png using Guid(e76dd3b801db4574ab250c44d1d09358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941a30a6f03e3298fb9e0749681956f8') in 0.039871 seconds
+  Import took 0.047691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F2/F1_FDoor_Metallic.png
+  artifactKey: Guid(b8ce5359801607d40af0dff013ed1ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F2/F1_FDoor_Metallic.png using Guid(b8ce5359801607d40af0dff013ed1ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d126f7ae4feae7ab8ba8e9a4b22dd55') in 0.015575 seconds
+  Import took 0.022693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F1/F1_WFrames_BaseColor.png
+  artifactKey: Guid(cea8cb406d1720d449c8cfca1d887308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F1/F1_WFrames_BaseColor.png using Guid(cea8cb406d1720d449c8cfca1d887308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e81826d354cf3506500074087941ec') in 0.035807 seconds
+  Import took 0.043191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003720 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F2/F1_FDoor_Roughness.png
+  artifactKey: Guid(028212e41a48ab548b8fb086726cefb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F2/F1_FDoor_Roughness.png using Guid(028212e41a48ab548b8fb086726cefb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2382410722c0e1cb40495c8e3e5fe08') in 0.031601 seconds
+  Import took 0.040546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H2/H2_Upstairs_Roughness.png
+  artifactKey: Guid(3339adf95c5175042a075b01ca32a42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H2/H2_Upstairs_Roughness.png using Guid(3339adf95c5175042a075b01ca32a42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f4842999d45ae1014a057b32d506ad') in 0.044444 seconds
+  Import took 0.051345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F2/F1_MainWalls_BaseColor.png
+  artifactKey: Guid(d393357975a521840a5cfa743880adf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F2/F1_MainWalls_BaseColor.png using Guid(d393357975a521840a5cfa743880adf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c7310e256de8b294f3eb4e7c4e016b') in 0.039882 seconds
+  Import took 0.046620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Ceiling_Roughness.png
+  artifactKey: Guid(537d49991d3d1b24185d8ff7c2b10651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Ceiling_Roughness.png using Guid(537d49991d3d1b24185d8ff7c2b10651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf80f6cc4dfe98336254b88141ef449') in 0.045114 seconds
+  Import took 0.050241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_H_Roof_Metallic.png
+  artifactKey: Guid(7a94b25af24220045a702cd4cf47e930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_H_Roof_Metallic.png using Guid(7a94b25af24220045a702cd4cf47e930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a5a7f458bfd9753dd7f702aaf6e025') in 0.037191 seconds
+  Import took 0.044522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_FFront_Pips_Metallic.png
+  artifactKey: Guid(c665f7ae6bf042343976859250c9d94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_FFront_Pips_Metallic.png using Guid(c665f7ae6bf042343976859250c9d94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041c950a9af50fe38eb38dde004120eb') in 0.040290 seconds
+  Import took 0.050415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F3/F3_MainWalls_Normal.png
+  artifactKey: Guid(8103d97539a7f05439c7093153127d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F3/F3_MainWalls_Normal.png using Guid(8103d97539a7f05439c7093153127d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708af4fefef5b9f281da13cc670fb563') in 0.041262 seconds
+  Import took 0.049650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_STanks_Roughness.png
+  artifactKey: Guid(de21a8cf06bc38245959d74ea239a6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_STanks_Roughness.png using Guid(de21a8cf06bc38245959d74ea239a6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13db5b1e668a137594884967560a864') in 0.054557 seconds
+  Import took 0.059598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/3dModels/Hadi_s Assets/SC/SC_WFrame_Roughness.png
+  artifactKey: Guid(35220e0d161a165459be307fe8a92655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/SC/SC_WFrame_Roughness.png using Guid(35220e0d161a165459be307fe8a92655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd480888f877e0e081260c2a668001f') in 0.038650 seconds
+  Import took 0.045809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H1/H1_MainWalls_Normal.png
+  artifactKey: Guid(88a9f4b20e965b34d9f30cd9645c31f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H1/H1_MainWalls_Normal.png using Guid(88a9f4b20e965b34d9f30cd9645c31f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c650abf4b42ac39d68c090601b79350') in 0.043060 seconds
+  Import took 0.048730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Ceiling_BaseColor.png
+  artifactKey: Guid(07d16c9e854f19641bdccea7247b308c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Ceiling_BaseColor.png using Guid(07d16c9e854f19641bdccea7247b308c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a62649850fd754e982a43b952c0301') in 0.045689 seconds
+  Import took 0.050777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_FTank_Body_Metallic.png
+  artifactKey: Guid(6815c0cb446fab1499f414f7fa57fb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_FTank_Body_Metallic.png using Guid(6815c0cb446fab1499f414f7fa57fb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda4bbb734adf20d1a6c239f340e0f44') in 0.038929 seconds
+  Import took 0.045942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H2/H2_MainWalls_BaseColor.png
+  artifactKey: Guid(428aa90ec64a10644bbbacef4dead6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H2/H2_MainWalls_BaseColor.png using Guid(428aa90ec64a10644bbbacef4dead6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b9c8806aab6efba2667afa4da3c29a') in 0.047189 seconds
+  Import took 0.053819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/3dModels/Hadi_s Assets/O1/O1_O1_MainWalls_Metallic.png
+  artifactKey: Guid(9a127379b96f7d24a8bd93697e45059d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/O1/O1_O1_MainWalls_Metallic.png using Guid(9a127379b96f7d24a8bd93697e45059d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8475d2b977ad41734cb0493301891229') in 0.040651 seconds
+  Import took 0.046535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Floor_Roughness.png
+  artifactKey: Guid(f11fd534602ff454184e8cfdbff12947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Floor_Roughness.png using Guid(f11fd534602ff454184e8cfdbff12947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aab46e5f69bf52a63cfd31dac632528') in 0.046892 seconds
+  Import took 0.053732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H2/H2_MainWalls_Roughness.png
+  artifactKey: Guid(e3abb5f1c9ea3f44794a9824e5c10371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H2/H2_MainWalls_Roughness.png using Guid(e3abb5f1c9ea3f44794a9824e5c10371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df93e0cf0d0bac4f22c40d0df5f684a0') in 0.042380 seconds
+  Import took 0.047162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F2/F1_MainWalls_Height.png
+  artifactKey: Guid(f0b90cbcea83f7d48bb0d83a44b82d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F2/F1_MainWalls_Height.png using Guid(f0b90cbcea83f7d48bb0d83a44b82d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1434c088e8cb498fbaef086c7f1ea868') in 0.040898 seconds
+  Import took 0.046880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Door_Normal.png
+  artifactKey: Guid(5c0a35aae9fe168459cbc0a8976f319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_Door_Normal.png using Guid(5c0a35aae9fe168459cbc0a8976f319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b8666b86b70e38b9d462e7f640e696') in 0.041339 seconds
+  Import took 0.047565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_LowerGurde_Metallic.png
+  artifactKey: Guid(ce94cb3b46e76d247a6785af9cca741b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Hotel/Hotel_HF_LowerGurde_Metallic.png using Guid(ce94cb3b46e76d247a6785af9cca741b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2deef4ee25e80eb8fc3518c528879048') in 0.037738 seconds
+  Import took 0.042791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/3dModels/Hadi_s Assets/H2/H2_WFrames_Height.png
+  artifactKey: Guid(50c3056706c97104e9adddf1b7f9e893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/H2/H2_WFrames_Height.png using Guid(50c3056706c97104e9adddf1b7f9e893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30f1f494fd749e46ca7d8680dc9dcdb') in 0.040319 seconds
+  Import took 0.046339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/3dModels/Hadi_s Assets/F1/F1_WFrames_Height.png
+  artifactKey: Guid(6086d5e2ee575f44ca632ce8559e7d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/F1/F1_WFrames_Height.png using Guid(6086d5e2ee575f44ca632ce8559e7d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70d8e8ba349b3ef735f23c333a3a176') in 0.016561 seconds
+  Import took 0.026793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_FTop_Pips_Normal.png
+  artifactKey: Guid(0df9eb0a14956b345bbd55abf1525845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_FTop_Pips_Normal.png using Guid(0df9eb0a14956b345bbd55abf1525845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05c7610e2ecd2bb92327f7349b81881') in 0.044270 seconds
+  Import took 0.050359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/3dModels/Hadi_s Assets/SC/SC_Banner_Roughness.png
+  artifactKey: Guid(a4bb74431dcdd184f8bef40c5cb17192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/SC/SC_Banner_Roughness.png using Guid(a4bb74431dcdd184f8bef40c5cb17192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1883afe4835ad2602f167c7c5fc2f37') in 0.036659 seconds
+  Import took 0.044265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.384273 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Mat_BusChairs.mat
+  artifactKey: Guid(f5ff30192c073614d9de6ea254eac5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Mat_BusChairs.mat using Guid(f5ff30192c073614d9de6ea254eac5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f958806f6eb5978bc2a6f67921dad39f') in 0.063432 seconds
+  Import took 0.070575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Mat_BusFR.mat
+  artifactKey: Guid(e4d2875e1aacd864cbc1bf33edf7d534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Mat_BusFR.mat using Guid(e4d2875e1aacd864cbc1bf33edf7d534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca283f86f98f584ecaea9282ab7e002d') in 0.032193 seconds
+  Import took 0.038884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008302 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Mat_BusFR.mat
+  artifactKey: Guid(e4d2875e1aacd864cbc1bf33edf7d534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Mat_BusFR.mat using Guid(e4d2875e1aacd864cbc1bf33edf7d534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca283f86f98f584ecaea9282ab7e002d') in 0.018131 seconds
+  Import took 0.025052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.453168 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_FS_Normal.png
+  artifactKey: Guid(ad5414e92a904434c83b6287a11f1cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_FS_Normal.png using Guid(ad5414e92a904434c83b6287a11f1cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2eacce357f8cb14ba28d20063421944') in 0.024803 seconds
+  Import took 0.029781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001886 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_FS_Normal.png
+  artifactKey: Guid(ad5414e92a904434c83b6287a11f1cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_FS_Normal.png using Guid(ad5414e92a904434c83b6287a11f1cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2eacce357f8cb14ba28d20063421944') in 0.024505 seconds
+  Import took 0.033109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 149.747596 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Mat_BusFS.mat
+  artifactKey: Guid(e4d2875e1aacd864cbc1bf33edf7d534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Mat_BusFS.mat using Guid(e4d2875e1aacd864cbc1bf33edf7d534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b76a438170ad09aea1a52e23adef02') in 0.061048 seconds
+  Import took 0.071245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Mat_BusMFrame.mat
+  artifactKey: Guid(33bf83348e7bcaa4e8d26e3d6c993ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Mat_BusMFrame.mat using Guid(33bf83348e7bcaa4e8d26e3d6c993ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42d2c76e2cf4aa5912a713ade9544d2') in 0.022112 seconds
+  Import took 0.031903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.403652 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_MFrame_Normal.png
+  artifactKey: Guid(b165a7852eb8d4942a0c9f4149aca456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_MFrame_Normal.png using Guid(b165a7852eb8d4942a0c9f4149aca456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd133ee1b2fa38b8cc254baf5f31e007b') in 0.040661 seconds
+  Import took 0.054385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.014000 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Mat_BusDoor.mat
+  artifactKey: Guid(8352dbb375f11f147830e421c620277a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Mat_BusDoor.mat using Guid(8352dbb375f11f147830e421c620277a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd858ca86e486b2dab6622c41d18220ad') in 0.036107 seconds
+  Import took 0.049146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Mat_BusMFrame.mat
+  artifactKey: Guid(33bf83348e7bcaa4e8d26e3d6c993ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Mat_BusMFrame.mat using Guid(33bf83348e7bcaa4e8d26e3d6c993ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f530812d25b5af6a38656bf5f964247') in 0.050675 seconds
+  Import took 0.059305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001522 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Mat_BusMFrame.mat
+  artifactKey: Guid(33bf83348e7bcaa4e8d26e3d6c993ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Mat_BusMFrame.mat using Guid(33bf83348e7bcaa4e8d26e3d6c993ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f530812d25b5af6a38656bf5f964247') in 0.031157 seconds
+  Import took 0.037957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 242.829177 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Mat_BusChairs.mat
+  artifactKey: Guid(f5ff30192c073614d9de6ea254eac5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Mat_BusChairs.mat using Guid(f5ff30192c073614d9de6ea254eac5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844cc3f4f9f68d0935b46a0ffde24db2') in 0.068033 seconds
+  Import took 0.074987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Mat_BusDoor.mat
+  artifactKey: Guid(8352dbb375f11f147830e421c620277a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Mat_BusDoor.mat using Guid(8352dbb375f11f147830e421c620277a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc3e0c060546633412ac5c31580caa6') in 0.032920 seconds
+  Import took 0.041724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Mat_BusWall.mat
+  artifactKey: Guid(0f1a073fd55388743af504fedd39678b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Mat_BusWall.mat using Guid(0f1a073fd55388743af504fedd39678b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a598f75b5d6499700ac4d4c23dd97bb5') in 0.022926 seconds
+  Import took 0.033237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.579720 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Buss_Door_Normal.png
+  artifactKey: Guid(990edb0e5461420459e854933f541189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Buss_Door_Normal.png using Guid(990edb0e5461420459e854933f541189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cffd9aade75d0f60a5ddb3df805b9a0') in 0.025688 seconds
+  Import took 0.034292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.327555 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_BWall_Normal.png
+  artifactKey: Guid(bf8e370175b5ca64689184419b324454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Bus_Bus_BWall_Normal.png using Guid(bf8e370175b5ca64689184419b324454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556b88f7999e60fdcfa6d118a8c717aa') in 0.031018 seconds
+  Import took 0.037240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.968014 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Bus/Mat_BusWall.mat
+  artifactKey: Guid(0f1a073fd55388743af504fedd39678b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Bus/Mat_BusWall.mat using Guid(0f1a073fd55388743af504fedd39678b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5473d1f911f4201471b093f04927415e') in 0.041938 seconds
+  Import took 0.049328 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001760 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.695 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.8 MB.
+System memory in use after: 137.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3188.
+Total: 3.594100 ms (FindLiveObjects: 0.500900 ms CreateObjectMapping: 0.283500 ms MarkObjects: 2.704600 ms  DeleteObjects: 0.103700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.811650 seconds.
+  path: Assets/Prefabs/Hadi's Buildings/Bus.prefab
+  artifactKey: Guid(75bb835075b148f4293d1de9211771bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Hadi's Buildings/Bus.prefab using Guid(75bb835075b148f4293d1de9211771bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd8c84ddf94ee7b2301028209f1e4eb') in 0.430839 seconds
+  Import took 0.447309 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001666 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.9 MB.
-System memory in use after: 131.1 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3101.
-Total: 2.903500 ms (FindLiveObjects: 0.329000 ms CreateObjectMapping: 0.188700 ms MarkObjects: 2.264700 ms  DeleteObjects: 0.119600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001757 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.082 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.0 MB.
-System memory in use after: 131.2 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3103.
-Total: 3.176900 ms (FindLiveObjects: 0.545600 ms CreateObjectMapping: 0.229400 ms MarkObjects: 2.281800 ms  DeleteObjects: 0.118700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001764 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.110 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.0 MB.
-System memory in use after: 131.2 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3105.
-Total: 4.728600 ms (FindLiveObjects: 0.731800 ms CreateObjectMapping: 0.466100 ms MarkObjects: 3.414700 ms  DeleteObjects: 0.114300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001773 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.028 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.0 MB.
-System memory in use after: 131.2 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3107.
-Total: 2.961400 ms (FindLiveObjects: 0.324900 ms CreateObjectMapping: 0.145100 ms MarkObjects: 2.325700 ms  DeleteObjects: 0.164000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002683 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.007 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.0 MB.
-System memory in use after: 131.2 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3109.
-Total: 3.588400 ms (FindLiveObjects: 0.347700 ms CreateObjectMapping: 0.134700 ms MarkObjects: 3.000000 ms  DeleteObjects: 0.105100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001703 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.004 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.1 MB.
-System memory in use after: 131.2 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3111.
-Total: 3.021200 ms (FindLiveObjects: 0.339900 ms CreateObjectMapping: 0.153700 ms MarkObjects: 2.387300 ms  DeleteObjects: 0.139200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001745 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.000 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.1 MB.
-System memory in use after: 131.3 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3113.
-Total: 4.047600 ms (FindLiveObjects: 0.357400 ms CreateObjectMapping: 0.182600 ms MarkObjects: 3.413700 ms  DeleteObjects: 0.092500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001844 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -265,259 +1889,147 @@ Mono: successfully reloaded assembly
 - Completed reload, in  1.158 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.1 MB.
-System memory in use after: 131.3 MB.
+Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.9 MB.
+System memory in use after: 137.1 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3115.
-Total: 3.278600 ms (FindLiveObjects: 0.440200 ms CreateObjectMapping: 0.228500 ms MarkObjects: 2.490100 ms  DeleteObjects: 0.118500 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3226.
+Total: 2.736600 ms (FindLiveObjects: 0.316600 ms CreateObjectMapping: 0.140300 ms MarkObjects: 2.187600 ms  DeleteObjects: 0.091300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001669 seconds.
+Registered in 0.002462 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.127 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.1 MB.
-System memory in use after: 131.3 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3117.
-Total: 4.217100 ms (FindLiveObjects: 0.345500 ms CreateObjectMapping: 0.250000 ms MarkObjects: 3.489700 ms  DeleteObjects: 0.129900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001668 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.071 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.1 MB.
-System memory in use after: 131.3 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3119.
-Total: 2.652100 ms (FindLiveObjects: 0.316300 ms CreateObjectMapping: 0.151600 ms MarkObjects: 2.074900 ms  DeleteObjects: 0.108200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001839 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.099 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.1 MB.
-System memory in use after: 131.3 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3121.
-Total: 2.733400 ms (FindLiveObjects: 0.336500 ms CreateObjectMapping: 0.193600 ms MarkObjects: 2.103900 ms  DeleteObjects: 0.098400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001934 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.104 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.1 MB.
-System memory in use after: 131.3 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3123.
-Total: 3.077300 ms (FindLiveObjects: 0.550900 ms CreateObjectMapping: 0.247600 ms MarkObjects: 2.180000 ms  DeleteObjects: 0.097000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001728 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.068 seconds
+- Completed reload, in  1.601 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.1 MB.
-System memory in use after: 131.3 MB.
+Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.0 MB.
+System memory in use after: 137.2 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3125.
-Total: 3.094200 ms (FindLiveObjects: 0.378600 ms CreateObjectMapping: 0.261700 ms MarkObjects: 2.333300 ms  DeleteObjects: 0.118800 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3228.
+Total: 3.064200 ms (FindLiveObjects: 0.368700 ms CreateObjectMapping: 0.169200 ms MarkObjects: 2.324800 ms  DeleteObjects: 0.200300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2400.443196 seconds.
+  path: Assets/Scenes/StartScene.unity
+  artifactKey: Guid(6b1e23eee7caa544d8a15446f25c5902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StartScene.unity using Guid(6b1e23eee7caa544d8a15446f25c5902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15136e79bbcb7928635812984cf4a21') in 0.028019 seconds
+  Import took 0.039777 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001898 seconds.
+Registered in 0.001712 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.078 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.1 MB.
-System memory in use after: 131.3 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3127.
-Total: 2.974000 ms (FindLiveObjects: 0.374100 ms CreateObjectMapping: 0.154900 ms MarkObjects: 2.342600 ms  DeleteObjects: 0.101100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001918 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.088 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.1 MB.
-System memory in use after: 131.3 MB.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.144 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.0 MB.
+System memory in use after: 137.2 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3129.
-Total: 4.022800 ms (FindLiveObjects: 0.572300 ms CreateObjectMapping: 0.233400 ms MarkObjects: 3.089800 ms  DeleteObjects: 0.125300 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3230.
+Total: 3.749400 ms (FindLiveObjects: 0.472500 ms CreateObjectMapping: 0.205900 ms MarkObjects: 2.917800 ms  DeleteObjects: 0.151100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.610067 seconds.
+  path: Assets/Scenes/MCHouseScene.unity
+  artifactKey: Guid(dcb85e12ff7064b42a55f6c4dab95d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MCHouseScene.unity using Guid(dcb85e12ff7064b42a55f6c4dab95d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d6d37348bd454c25d4b2ad338d7b59') in 0.024105 seconds
+  Import took 0.030944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.050310 seconds.
+  path: Assets/Scenes/BusScene.unity
+  artifactKey: Guid(928cb4704300e4c41b89b9b84566a585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BusScene.unity using Guid(928cb4704300e4c41b89b9b84566a585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c99a0fa99293665487ebc33b192bd1') in 0.012700 seconds
+  Import took 0.019954 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001885 seconds.
+Registered in 0.001692 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 6.55 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.074 seconds
+- Completed reload, in  1.349 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.1 MB.
-System memory in use after: 131.3 MB.
+Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.0 MB.
+System memory in use after: 137.2 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3131.
-Total: 3.671100 ms (FindLiveObjects: 0.345500 ms CreateObjectMapping: 0.172200 ms MarkObjects: 3.029000 ms  DeleteObjects: 0.123200 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3232.
+Total: 3.627900 ms (FindLiveObjects: 0.540700 ms CreateObjectMapping: 0.247300 ms MarkObjects: 2.717400 ms  DeleteObjects: 0.120800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1367.735036 seconds.
+  path: Assets/Scripts/ExitToScene.cs
+  artifactKey: Guid(69e45cd54fdf78d47bb5e3a561b01dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ExitToScene.cs using Guid(69e45cd54fdf78d47bb5e3a561b01dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00bacf00b5a3d11d96fbdd4a88150b8') in 0.017928 seconds
+  Import took 0.023239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 187.971517 seconds.
+  path: Assets/Scripts/Versions SUS/SetUpMCHouse.cs
+  artifactKey: Guid(22bfdfee835ac264caa054d6cbcfb984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Versions SUS/SetUpMCHouse.cs using Guid(22bfdfee835ac264caa054d6cbcfb984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2be832b2b3dbe80b41811a559fc8f1') in 0.010867 seconds
+  Import took 0.017063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024045 seconds.
+  path: Assets/Scripts/Versions SUS/SetUpMCHouse.cs
+  artifactKey: Guid(22bfdfee835ac264caa054d6cbcfb984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Versions SUS/SetUpMCHouse.cs using Guid(22bfdfee835ac264caa054d6cbcfb984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2be832b2b3dbe80b41811a559fc8f1') in 0.005005 seconds
+  Import took 0.010637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.733321 seconds.
+  path: Assets/Scripts/Versions SUS/SetUpBus.cs
+  artifactKey: Guid(f5b189db64ec10342a11955c968da139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Versions SUS/SetUpBus.cs using Guid(f5b189db64ec10342a11955c968da139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde4b1a705ca7ee6f27e861071d4bf64') in 0.019070 seconds
+  Import took 0.038594 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001757 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.232 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.1 MB.
-System memory in use after: 131.3 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3133.
-Total: 3.836600 ms (FindLiveObjects: 0.413200 ms CreateObjectMapping: 0.259500 ms MarkObjects: 2.322500 ms  DeleteObjects: 0.837700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002256 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.936 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.1 MB.
-System memory in use after: 131.3 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3135.
-Total: 4.509900 ms (FindLiveObjects: 0.751000 ms CreateObjectMapping: 0.677900 ms MarkObjects: 2.896800 ms  DeleteObjects: 0.180900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002119 seconds.
+Registered in 0.002689 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
@@ -526,64 +2038,280 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.314 seconds
+- Completed reload, in  1.170 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.1 MB.
-System memory in use after: 131.3 MB.
+Unloading 2525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.0 MB.
+System memory in use after: 137.2 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3137.
-Total: 3.524000 ms (FindLiveObjects: 0.393100 ms CreateObjectMapping: 0.221600 ms MarkObjects: 2.774700 ms  DeleteObjects: 0.132000 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3235.
+Total: 3.198300 ms (FindLiveObjects: 0.400100 ms CreateObjectMapping: 0.178300 ms MarkObjects: 2.455200 ms  DeleteObjects: 0.163000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001743 seconds.
+Registered in 0.001626 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.244 seconds
+- Completed reload, in  1.232 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.1 MB.
-System memory in use after: 131.3 MB.
+Unloading 2525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.0 MB.
+System memory in use after: 137.2 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3139.
-Total: 5.694100 ms (FindLiveObjects: 2.727200 ms CreateObjectMapping: 0.308800 ms MarkObjects: 2.559400 ms  DeleteObjects: 0.095600 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3237.
+Total: 3.369000 ms (FindLiveObjects: 0.351500 ms CreateObjectMapping: 0.172100 ms MarkObjects: 2.703600 ms  DeleteObjects: 0.140400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 354.195051 seconds.
+  path: Assets/Scripts/Versions SUS/SetUpBus.cs
+  artifactKey: Guid(f5b189db64ec10342a11955c968da139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Versions SUS/SetUpBus.cs using Guid(f5b189db64ec10342a11955c968da139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3cce8f33e2815faf70f7d302710d7e') in 0.010401 seconds
+  Import took 0.016127 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001602 seconds.
+Registered in 0.002024 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.283 seconds
+- Completed reload, in  1.206 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.1 MB.
-System memory in use after: 131.3 MB.
+Unloading 2525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.0 MB.
+System memory in use after: 137.2 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3141.
-Total: 7.812900 ms (FindLiveObjects: 0.398400 ms CreateObjectMapping: 0.220900 ms MarkObjects: 7.073300 ms  DeleteObjects: 0.118800 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3239.
+Total: 3.775000 ms (FindLiveObjects: 0.708100 ms CreateObjectMapping: 0.230000 ms MarkObjects: 2.720900 ms  DeleteObjects: 0.114500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003874 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.278 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.0 MB.
+System memory in use after: 137.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3241.
+Total: 6.725400 ms (FindLiveObjects: 0.569600 ms CreateObjectMapping: 0.261100 ms MarkObjects: 5.782500 ms  DeleteObjects: 0.110200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2822.361424 seconds.
+  path: Assets/Scenes/MixingMechanics.unity
+  artifactKey: Guid(005d1cf1571af10439e82d64a7f78ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MixingMechanics.unity using Guid(005d1cf1571af10439e82d64a7f78ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2f8ec72c177d757dae684b3ca6d15b') in 0.044035 seconds
+  Import took 0.051990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3938.087773 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory
+  artifactKey: Guid(cd59ffb4f4b2eb5428b2a2d0a322ba27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory using Guid(cd59ffb4f4b2eb5428b2a2d0a322ba27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a40afae07b77ae07468ddc30e48ee84') in 0.011079 seconds
+  Import took 0.023885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005914 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory
+  artifactKey: Guid(cd59ffb4f4b2eb5428b2a2d0a322ba27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory using Guid(cd59ffb4f4b2eb5428b2a2d0a322ba27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a40afae07b77ae07468ddc30e48ee84') in 0.004030 seconds
+  Import took 0.013147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 321.966031 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoryCeiling.mat
+  artifactKey: Guid(e3dd3e239cca47f43ab91ade292a0144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoryCeiling.mat using Guid(e3dd3e239cca47f43ab91ade292a0144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0142949abec79358cb2b049fb71f2f') in 0.233633 seconds
+  Import took 0.243127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.380013 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Mat_AiStandardSurface1.mat
+  artifactKey: Guid(62218a7fe7db20b419b1c4356c013874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Mat_AiStandardSurface1.mat using Guid(62218a7fe7db20b419b1c4356c013874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2170a9f68af70973b2259404892d2c1') in 0.048127 seconds
+  Import took 0.057373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.932529 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Ceiling_Normal.png
+  artifactKey: Guid(530fac7cb118632419d77a3b7f442c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Ceiling_Normal.png using Guid(530fac7cb118632419d77a3b7f442c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717f074d19b9cb9aeeec86fa1dd0b4c5') in 0.090751 seconds
+  Import took 0.097287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 288.009436 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoryCeiling.mat
+  artifactKey: Guid(e3dd3e239cca47f43ab91ade292a0144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoryCeiling.mat using Guid(e3dd3e239cca47f43ab91ade292a0144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368d3d7da96ccdd737f2dd29b518609a') in 0.075727 seconds
+  Import took 0.084124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.200269 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoryFloor.mat
+  artifactKey: Guid(88da5204f6f82d04aa4c6cee7007ba1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoryFloor.mat using Guid(88da5204f6f82d04aa4c6cee7007ba1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3fffa5738970d13ae12cefbf72590e') in 0.023866 seconds
+  Import took 0.030211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.612193 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Floor_Normal.png
+  artifactKey: Guid(22a5cb594ca4f174c984e113678a0834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Floor_Normal.png using Guid(22a5cb594ca4f174c984e113678a0834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8135d3bfbe730754602976183b63cdc4') in 0.026544 seconds
+  Import took 0.038754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.852203 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoriySideWall.mat
+  artifactKey: Guid(cdf241e8c2293984e8e533dcf50ae5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoriySideWall.mat using Guid(cdf241e8c2293984e8e533dcf50ae5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5daa1c833643fc0dbf5be4b62ca3160d') in 0.022880 seconds
+  Import took 0.029313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000550 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoryFloor.mat
+  artifactKey: Guid(88da5204f6f82d04aa4c6cee7007ba1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoryFloor.mat using Guid(88da5204f6f82d04aa4c6cee7007ba1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f879950762672005edfcb2e41ebd18b') in 0.066104 seconds
+  Import took 0.074914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.334005 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Side_Wall_Normal.png
+  artifactKey: Guid(f23a75f32e076324c8281b5db77d5daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Side_Wall_Normal.png using Guid(f23a75f32e076324c8281b5db77d5daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94cf2034effc3b1f71ef5e7aa9d31321') in 0.029004 seconds
+  Import took 0.037713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 161.045867 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Mat_FactorySideWall.mat
+  artifactKey: Guid(cdf241e8c2293984e8e533dcf50ae5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Mat_FactorySideWall.mat using Guid(cdf241e8c2293984e8e533dcf50ae5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d97262598aa2b387ee3a3bf5b44d1f2') in 0.053923 seconds
+  Import took 0.062212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000565 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoryWalls.mat
+  artifactKey: Guid(f933efe36d6d7d34a92dea07b9d1c7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoryWalls.mat using Guid(f933efe36d6d7d34a92dea07b9d1c7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1dab54c4725b0d37bc3808620833f4') in 0.020923 seconds
+  Import took 0.030442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.001627 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Walls_Normal.png
+  artifactKey: Guid(2f3059d41a0904849a4b87d901e28063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_Factory_Walls_Normal.png using Guid(2f3059d41a0904849a4b87d901e28063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3825c80c09a019ce96aba15a04e70095') in 0.029164 seconds
+  Import took 0.035880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.281505 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoryFrontPipes.mat
+  artifactKey: Guid(7dc24f3c1c998d14180d60c4641aee55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoryFrontPipes.mat using Guid(7dc24f3c1c998d14180d60c4641aee55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccfc6563f9534bd57c25f7e29f396182') in 0.038695 seconds
+  Import took 0.048596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoryWalls.mat
+  artifactKey: Guid(f933efe36d6d7d34a92dea07b9d1c7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoryWalls.mat using Guid(f933efe36d6d7d34a92dea07b9d1c7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb60a414eb2d6d776a28da7dc04a98d8') in 0.041934 seconds
+  Import took 0.050395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.209542 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_FFront_Pips_Normal.png
+  artifactKey: Guid(10d0c362d633c5842a4b442471500b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_FFront_Pips_Normal.png using Guid(10d0c362d633c5842a4b442471500b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972e5b09422a3cddf663dcc315008990') in 0.037151 seconds
+  Import took 0.049363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.870247 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoryFrontPipes.mat
+  artifactKey: Guid(7dc24f3c1c998d14180d60c4641aee55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoryFrontPipes.mat using Guid(7dc24f3c1c998d14180d60c4641aee55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ba842112289e36d2cf09ce546152d0') in 0.042968 seconds
+  Import took 0.054078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoryGlassFrame.mat
+  artifactKey: Guid(9efdbd1c39839b44ca1e940a266824bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoryGlassFrame.mat using Guid(9efdbd1c39839b44ca1e940a266824bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e1ae7307f9e77f8da5e71a44490e58') in 0.023825 seconds
+  Import took 0.032001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 275.095246 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Factory_FGlass_Frame_Normal.png
+  artifactKey: Guid(dc15842c41cb73844a23ad6f3d3a273a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Factory_FGlass_Frame_Normal.png using Guid(dc15842c41cb73844a23ad6f3d3a273a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8919e2227835d0ccb3ffc0cdb14cc67d') in 0.036884 seconds
+  Import took 0.043281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.119418 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoryGlassFrame.mat
+  artifactKey: Guid(9efdbd1c39839b44ca1e940a266824bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoryGlassFrame.mat using Guid(9efdbd1c39839b44ca1e940a266824bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab945980d85ab2a5853946e57cc39579') in 0.040870 seconds
+  Import took 0.048509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoryTankBody.mat
+  artifactKey: Guid(eaa644b2e67d38747a31d7cca6dc15a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dModels/Hadi_s Assets/Factory/Mat_FactoryTankBody.mat using Guid(eaa644b2e67d38747a31d7cca6dc15a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d995fdd6d99b1ade5f1b9bcc77f2a20') in 0.021824 seconds
+  Import took 0.032794 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
