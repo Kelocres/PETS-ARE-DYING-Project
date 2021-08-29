@@ -51,7 +51,8 @@ public class DialogManager : MonoBehaviour
     private PlayerData playerData;
 
     // Start is called before the first frame update
-    void Start()
+    //void Start()
+    public void StartDialogManager()
     {
         //FindGameObjectWithTag doesn't work with UI.Image
         //canvas_bgImage = GameObject.FindGameObjectWithTag("BackgroundImage");

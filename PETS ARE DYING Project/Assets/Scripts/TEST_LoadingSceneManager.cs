@@ -2,20 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LoadingSceneManager : MonoBehaviour
+public class TEST_LoadingSceneManager : MonoBehaviour
 {
     PlayerData playerData;
     public SetUpScene setUp;
     public bool resetPlayerPrefs;
+    public GameObject testObject;
 
     //void onEnable()
     void Start()
     {
         if(resetPlayerPrefs)
         {
-            PlayerPrefs.DeleteAll();
-            PlayerPrefs.DeleteKey("startedGame");
+            //PlayerPrefs.DeleteAll();
+            //PlayerPrefs.DeleteKey("startedGame");
         }
+
+        //testObject.SetActive(true);
 
         Debug.Log("Start of LoadingSceneManager");
         //Debug.Log("LOADING SCENE MANAGER");
@@ -29,7 +32,7 @@ public class LoadingSceneManager : MonoBehaviour
         //      (if not, create the keys in PlayerPrefs, with the initial values)
         //Debug.Log("Does startedGame exist? "+ PlayerPrefs.HasKey("startedGame"));
         //Debug.Log("The value of startedGame is " +  PlayerPrefs.GetString("startedGame",""));
-        if(!PlayerPrefs.HasKey("startedGame") || PlayerPrefs.GetString("startedGame","")!="true")
+        /*if(!PlayerPrefs.HasKey("startedGame") || PlayerPrefs.GetString("startedGame","")!="true")
         {
             Debug.Log("Setting startedGame and points");
             PlayerPrefs.SetString("startedGame","true");
@@ -39,7 +42,7 @@ public class LoadingSceneManager : MonoBehaviour
         {
             Debug.Log("Load moment according to SetUpScene");
             setUp.LoadMoment();
-        }
+        }*/
 
         //3º:   Read the values in PlayerPrefs
         playerData.points = PlayerPrefs.GetInt("points",0);
