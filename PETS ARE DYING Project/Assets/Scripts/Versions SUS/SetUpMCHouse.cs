@@ -6,15 +6,31 @@ public class SetUpMCHouse : SetUpScene
 {
     //Variables for the day
     public Dialog dialogManager_startinDialog;
+    //public string dialogManager_information;
     public bool dialogManager_doStartingDialog;
+
     public Dialog squareTrigger_Armchair_dialog;
+    public string squareTrigger_Armchair_information;
     public bool squareTrigger_Armchair_onlyOnce;
-    public string exitToScene_nextScene;
-    public bool exitToScene_allowExit;
+
+    public Dialog exitToScene_dialog;
+    public string exitToScene_information;
+    public bool exitToScene_onlyOnce;
+
+    public Dialog squareTrigger_dog_dialog;
+    public string squareTrigger_dog_information;
+    public bool squareTrigger_dog_onlyOnce;
+
+    public Dialog squareTrigger_kitchen_dialog;
+    public string squareTrigger_kitchen_information;
+    public bool squareTrigger_kitchen_onlyOnce;
 
     public DialogManager dManager;
     public TriggerDialog td_Armchair;
-    public ExitToScene exit;
+    public TriggerDialog td_dog;
+    public TriggerDialog exit;
+    public TriggerDialog td_kitchen;
+
 
     /*public void Start()
     {
@@ -33,10 +49,20 @@ public class SetUpMCHouse : SetUpScene
         dManager.doStartingDialog = dialogManager_doStartingDialog;
 
         td_Armchair.dialog = squareTrigger_Armchair_dialog;
+        td_Armchair.information = squareTrigger_Armchair_information;
         td_Armchair.onlyOnce = squareTrigger_Armchair_onlyOnce;
 
-        exit.nextScene = exitToScene_nextScene;
-        exit.allowExit = exitToScene_allowExit;
+        exit.dialog = exitToScene_dialog;
+        exit.information = exitToScene_information;
+        exit.onlyOnce = exitToScene_onlyOnce;
+
+        td_dog.dialog = squareTrigger_dog_dialog;
+        td_dog.information = squareTrigger_dog_information;
+        td_dog.onlyOnce = squareTrigger_dog_onlyOnce;
+
+        td_kitchen.dialog = squareTrigger_kitchen_dialog;
+        td_kitchen.information = squareTrigger_kitchen_information;
+        td_kitchen.onlyOnce = squareTrigger_kitchen_onlyOnce;
 
         //Set value in order to declarate that
 
@@ -44,7 +70,7 @@ public class SetUpMCHouse : SetUpScene
 
     public override void SaveMoment()
     {
-        bool currentDoStartingDialog = dManager.doStartingDialog;
+        /*bool currentDoStartingDialog = dManager.doStartingDialog;
         if(currentDoStartingDialog)
             PlayerPrefs.SetString("doStartingDialog","true");
         else
@@ -63,12 +89,13 @@ public class SetUpMCHouse : SetUpScene
         if(currentAllowExit)
             PlayerPrefs.SetString("MCHouse_allowExit","true");
         else
-            PlayerPrefs.SetString("MCHouse_allowExit","false");
+            PlayerPrefs.SetString("MCHouse_allowExit","false");*/
 
     }
 
     public override void LoadMoment()
     {
+        /*
         string savedDoStartingDialog = PlayerPrefs.GetString("doStartingDialog","");
         if(savedDoStartingDialog == "true")
             dManager.doStartingDialog = true;
@@ -87,7 +114,7 @@ public class SetUpMCHouse : SetUpScene
         if(savedAllowExit == "true")
             exit.allowExit = true;
         else
-            exit.allowExit = false;
+            exit.allowExit = false;*/
         
     }
 

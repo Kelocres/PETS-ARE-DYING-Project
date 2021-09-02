@@ -25,7 +25,7 @@ public class DialogManager : MonoBehaviour
     public RawImage raw_bgImageLerp;
     public CanvasGroup cg_bgImageLerp;
 
-    //The buttons for the options in a decision
+    /*//The buttons for the options in a decision
     private Button optionA;
     private Button optionB;
     //The OptionDialogs that are triggered 
@@ -33,7 +33,13 @@ public class DialogManager : MonoBehaviour
     private OptionDialog optionDialogB;
     //The points of the options
     private int pointsOptionA;
-    private int pointsOptionB;
+    private int pointsOptionB;*/
+
+    //private Button [] options;
+    //private OptionDialog [] optionsDialog;
+    //private int [] numSelect;
+    //private int [] pointsOption;
+    private OptionButton [] optionButtons;
 
     //The scene begins with this dialog
     public Dialog startingDialog;
@@ -79,24 +85,49 @@ public class DialogManager : MonoBehaviour
         //GameObject.FindGameObjectWithTag("ButtonNextDialog").GetComponent<Button>().onClick.AddListener(delegate {ShowCurrentLine();});
 
         //Find the bottons for the options
-        GameObject[] getListObjects = GameObject.FindGameObjectsWithTag("ButtonOption");
+        /*GameObject[] getListObjects = GameObject.FindGameObjectsWithTag("ButtonOption");
         Debug.Log("ButtonOptions detected: "+getListObjects.Length);
         if(getListObjects.Length == 2)
         {
             optionA = getListObjects[0].GetComponent<Button>();
             optionB = getListObjects[1].GetComponent<Button>();
             Debug.Log("ButtonOptions detected");
-        }
+        }*/
+
+        //Get the Option Buttons for the decisions
+        optionsContainerScript container = GameObject.FindGameObjectWithTag("optionsContainer").GetComponent<optionsContainerScript>();
+        optionButtons = container.optionButtons;
+        //pointsOption = new int[options.Length];
+        //numSelect = new int[options.Length];
+        //optionsDialog = new OptionDialog[options.Length];
+        //Debug.Log("Length of options array: "+options.Length);
+        for(int i=0; i<optionButtons.Length; i++)   
+            optionButtons[i].StartOptionButton();
+        HideOptionButtons();
+
 
         //Create an empty queue
         linesForDialog = new Queue<DialogLine>();
         player = FindObjectOfType<PlayerMovement2>();
         playerData = FindObjectOfType<PlayerData>();
-        pointsOptionA = 0;
-        pointsOptionB = 0;
+        //pointsOptionA = 0;
+        //pointsOptionB = 0;
 
         //Launch startingDialog
         if(doStartingDialog)     StartDialog(startingDialog);
+    }
+
+    void HideOptionButtons()
+    {
+        for(int i=0; i<optionButtons.Length; i++)
+        {
+            //options[i].gameObject.SetActive(false);
+            //options[i].onClick.RemoveListener(() => OnClickOption(i));
+            //options[i].onClick.RemoveAllListeners();
+            //pointsOption[i] = 0;
+
+            optionButtons[i].HideButton();
+        }
     }
 
     public void StartDialog(Dialog getDialog)
@@ -172,7 +203,7 @@ public class DialogManager : MonoBehaviour
 
                 //Link CANVAS bottons to the options of the decision
 
-                optionA.GetComponentInChildren<Text>().text = decision.optionA.showOption;
+                /*optionA.GetComponentInChildren<Text>().text = decision.optionA.showOption;
                 //Assing function of decision.optionA
                 optionA.onClick.AddListener(OnClickOptionA);
                 optionDialogA = decision.optionA;
@@ -183,7 +214,29 @@ public class DialogManager : MonoBehaviour
                 optionB.onClick.AddListener(OnClickOptionB);
                 optionDialogB = decision.optionB;
                 if(optionDialogB.points!=0)     pointsOptionB = optionDialogB.points;
+                */
 
+                int numberOptions = decision.options.Length;
+                if(numberOptions==0)
+                {
+                    //There are not options, so the Dialog ends
+                    FinishDialog();
+                    return;
+                }
+
+                for(int i=0; i<numberOptions; i++)
+                {
+                    /*options[i].gameObject.SetActive(true);
+                    options[i].GetComponentInChildren<Text>().text = decision.options[i].showOption;
+                    optionsDialog[i] = decision.options[i];
+                    pointsOption[i] = optionsDialog[i].points;
+                    numSelect[i] = i;
+                    
+                    //Assing function of decision.options[i]
+                    options[i].onClick.AddListener(() => OnClickOption(numSelect[i]));  
+                    Debug.Log("Creating Button " +numSelect[i]); */ 
+                    optionButtons[i].LinkOption(decision.options[i]);                
+                }
                 //The amount of bottons in the screen is related to the 
                 //amount of options of the decisions (array's length)
                 return;
@@ -219,7 +272,7 @@ public class DialogManager : MonoBehaviour
 
     }
 
-    public void OnClickOptionA()
+    /*public void OnClickOptionA()
     {
         //Debug.Log("Option A is chosen");
         playerData.PointsDuringDialog(pointsOptionA);
@@ -233,17 +286,33 @@ public class DialogManager : MonoBehaviour
         playerData.PointsDuringDialog(pointsOptionB);
         //ChangeDialog(optionDialogB);
         ChangeDialog(optionDialogB.newDialog);
+    }*/
+
+    public void OnClickOption(OptionDialog od)
+    {
+        //Debug.Log("Button "+select+" selected");
+        //playerData.PointsDuringDialog(pointsOption[select]);
+        //ChangeDialog(optionsDialog[select].newDialog);
+        playerData.PointsDuringDialog(od.points);
+        ChangeDialog(od.newDialog);
     }
 
     public void ChangeDialog(Dialog chosenOption)
     {
         //Disable the ButtonOptions
-        optionA.onClick.RemoveListener(OnClickOptionA);
-        optionB.onClick.RemoveListener(OnClickOptionB);
+        //optionA.onClick.RemoveListener(OnClickOptionA);
+        //optionB.onClick.RemoveListener(OnClickOptionB);
 
         //Reset the values of points
-        pointsOptionA = 0;
-        pointsOptionB = 0;
+        //pointsOptionA = 0;
+        //pointsOptionB = 0;
+        /*for(int i=0; i<options.Length; i++)
+        {
+            options[i].onClick.RemoveListener(() => OnClickOption(i));
+            pointsOption[i] = 0;
+        }*/
+        HideOptionButtons();
+
 
         //Change isDecision in animBoxDialog
         animDialogBox.SetBool("isDecision",false);

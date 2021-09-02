@@ -5,13 +5,14 @@ using UnityEngine;
 public class ExitToScene : MonoBehaviour
 {
     public string nextScene;
+    public string information;
     public bool allowExit = true;
 
     void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Player" && allowExit)
         {
-            other.GetComponent<ChangeScene>().SetUpButton(nextScene);
+            other.GetComponent<InteractScript>().SetUpButtonForNextScene(nextScene, information);
         }
     }
 
@@ -19,7 +20,7 @@ public class ExitToScene : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            other.GetComponent<ChangeScene>().UnableButton();
+            other.GetComponent<InteractScript>().UnableButton();
         }
     }
 }

@@ -45,8 +45,9 @@ public class DialogLine
 [System.Serializable]
 public class DecisionLine : DialogLine
 {
-    public OptionDialog optionA;
-    public OptionDialog optionB;
+    //public OptionDialog optionA;
+    //public OptionDialog optionB;
+    public OptionDialog [] options;
 
 }
 

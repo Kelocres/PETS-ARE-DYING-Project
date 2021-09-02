@@ -15,6 +15,7 @@ TagManager:
   - ButtonInteract
   - SquareTrigger_Armchair
   - SetUpScene_Day1
+  - optionsContainer
   layers:
   - Default
   - TransparentFX
