@@ -1,0 +1,117 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.3f1 (8ff31bc5bf5b) revision 9433883'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1165; Version 2009; 64bit' Language: 'es' Physical Memory: 8112 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/MSI/Documents/GitHub/PETS-ARE-DYING-Project/PETS ARE DYING Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52963
+Successfully changed project path to: C:/Users/MSI/Documents/GitHub/PETS-ARE-DYING-Project/PETS ARE DYING Project
+C:/Users/MSI/Documents/GitHub/PETS-ARE-DYING-Project/PETS ARE DYING Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 61.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/MSI/Documents/GitHub/PETS-ARE-DYING-Project/PETS ARE DYING Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   
+    VRAM:     4021 MB
+    Driver:   25.21.14.1972
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002588 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 66.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.467 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001624 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 66.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.242 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2646 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.7 MB.
+System memory in use after: 138.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3110.
+Total: 3.187800 ms (FindLiveObjects: 0.407700 ms CreateObjectMapping: 0.297700 ms MarkObjects: 2.330700 ms  DeleteObjects: 0.150400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/sprites/dog(1).png
+  artifactKey: Guid(aaf719a57cb1f0c4c8fbe6b66fa9237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/dog(1).png using Guid(aaf719a57cb1f0c4c8fbe6b66fa9237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a907fa29ec733e7151622a6177dd4f') in 0.156912 seconds
+  Import took 0.164282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.495601 seconds.
+  path: Assets/sprites/OBSOLETEdog.png
+  artifactKey: Guid(9b5bc6f49deb4e444b327bcc79d177a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/OBSOLETEdog.png using Guid(9b5bc6f49deb4e444b327bcc79d177a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098dd021f8d39d7430cfe447c4036920') in 0.102197 seconds
+  Import took 0.110789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.312240 seconds.
+  path: Assets/sprites/dog.png
+  artifactKey: Guid(aaf719a57cb1f0c4c8fbe6b66fa9237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/dog.png using Guid(aaf719a57cb1f0c4c8fbe6b66fa9237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da409db6822e3226cc47058fbcb59264') in 0.019707 seconds
+  Import took 0.026890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.633853 seconds.
+  path: Assets/sprites/dog.png
+  artifactKey: Guid(aaf719a57cb1f0c4c8fbe6b66fa9237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/dog.png using Guid(aaf719a57cb1f0c4c8fbe6b66fa9237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526e7a2b51e9d7db3a2d915388dbdb9b') in 0.026652 seconds
+  Import took 0.037443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.244145 seconds.
+  path: Assets/sprites/dog.png
+  artifactKey: Guid(aaf719a57cb1f0c4c8fbe6b66fa9237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/dog.png using Guid(aaf719a57cb1f0c4c8fbe6b66fa9237b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511447a9af33629de569532e380d63c9') in 0.064086 seconds
+  Import took 0.070185 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
