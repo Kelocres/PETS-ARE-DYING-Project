@@ -755,6 +755,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1770842144}
     m_Modifications:
+    - target: {fileID: 3744737461620808137, guid: 6841a3107e4b5ea4d82bb1e1eb29f53f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4765
+      objectReference: {fileID: 0}
     - target: {fileID: 3744737461653450360, guid: 6841a3107e4b5ea4d82bb1e1eb29f53f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -842,6 +846,10 @@ PrefabInstance:
     - target: {fileID: 3744737461653450367, guid: 6841a3107e4b5ea4d82bb1e1eb29f53f, type: 3}
       propertyPath: m_Name
       value: CANVAS_BG
+      objectReference: {fileID: 0}
+    - target: {fileID: 3744737461884712110, guid: 6841a3107e4b5ea4d82bb1e1eb29f53f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4765
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6841a3107e4b5ea4d82bb1e1eb29f53f, type: 3}
@@ -2004,7 +2012,7 @@ MonoBehaviour:
   squareTrigger_kitchen_onlyOnce: 1
   dManager: {fileID: 1416058473}
   td_Armchair: {fileID: 564872861}
-  td_dog: {fileID: 0}
+  td_dog: {fileID: 187165140}
   exit: {fileID: 3427900878184138523}
   td_kitchen: {fileID: 315080289}
 --- !u!4 &755421748
@@ -2142,15 +2150,12 @@ MonoBehaviour:
     - showOption: Drive to work
       newDialog: {fileID: 528653444}
       points: -1
-      shortExplanation: 
     - showOption: Take the Bus
       newDialog: {fileID: 727929185}
       points: 1
-      shortExplanation: 
     - showOption: Not leave yet
       newDialog: {fileID: 33443620}
       points: 0
-      shortExplanation: 
   nextDialog: {fileID: 0}
   ade: {fileID: 0}
   selectBGImage: -1
@@ -2732,11 +2737,9 @@ MonoBehaviour:
     - showOption: Have a quick shower
       newDialog: {fileID: 2067907931}
       points: 1
-      shortExplanation: 
     - showOption: Have a relaxing bath
       newDialog: {fileID: 511070472}
       points: -1
-      shortExplanation: 
   nextDialog: {fileID: 0}
   ade: {fileID: 0}
   selectBGImage: 0
@@ -2942,15 +2945,12 @@ MonoBehaviour:
     - showOption: Watch the news
       newDialog: {fileID: 504687988}
       points: 1
-      shortExplanation: 
     - showOption: Read social media
       newDialog: {fileID: 822935743}
       points: 1
-      shortExplanation: 
     - showOption: Watch the show you didn't finish last night
       newDialog: {fileID: 1831813379}
       points: -1
-      shortExplanation: 
   nextDialog: {fileID: 0}
   ade: {fileID: 0}
   selectBGImage: -1
@@ -3564,7 +3564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   listBackgroundImages:
-  - {fileID: 2800000, guid: 56fe306cc791e774e9ea3f10562d4d0e, type: 3}
+  - {fileID: 2800000, guid: d9c357a282376164ebe067f9bed2cbaa, type: 3}
   animDialogBox: {fileID: 6064425322301944403}
   txtName: {fileID: 0}
   txtDialog: {fileID: 0}
@@ -4124,11 +4124,9 @@ MonoBehaviour:
     - showOption: Fruits with toast and cheese
       newDialog: {fileID: 593641033}
       points: 1
-      shortExplanation: 
     - showOption: Full english breakfast
       newDialog: {fileID: 1313516601}
       points: -1
-      shortExplanation: 
   nextDialog: {fileID: 0}
   ade: {fileID: 0}
   selectBGImage: -1
@@ -4984,113 +4982,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogBox
       objectReference: {fileID: 0}
-    - target: {fileID: 8219315326218108055, guid: ad075dc0f5550204588208e8fb78a47d, type: 3}
-      propertyPath: optionButtons.Array.data[0]
-      value: 
-      objectReference: {fileID: 8219315326376855552}
-    - target: {fileID: 8219315326218108055, guid: ad075dc0f5550204588208e8fb78a47d, type: 3}
-      propertyPath: optionButtons.Array.data[1]
-      value: 
-      objectReference: {fileID: 8219315326376855553}
-    - target: {fileID: 8219315326218108055, guid: ad075dc0f5550204588208e8fb78a47d, type: 3}
-      propertyPath: optionButtons.Array.data[2]
-      value: 
-      objectReference: {fileID: 8219315326376855554}
-    - target: {fileID: 8219315326218108055, guid: ad075dc0f5550204588208e8fb78a47d, type: 3}
-      propertyPath: optionButtons.Array.data[3]
-      value: 
-      objectReference: {fileID: 8219315326376855555}
-    - target: {fileID: 8219315326218108055, guid: ad075dc0f5550204588208e8fb78a47d, type: 3}
-      propertyPath: optionButtons.Array.data[4]
-      value: 
-      objectReference: {fileID: 8219315326376855556}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad075dc0f5550204588208e8fb78a47d, type: 3}
---- !u!1 &8219315326376855547 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2754502091126301816, guid: ad075dc0f5550204588208e8fb78a47d, type: 3}
-  m_PrefabInstance: {fileID: 8219315326376855546}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8219315326376855548 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2754502091466670103, guid: ad075dc0f5550204588208e8fb78a47d, type: 3}
-  m_PrefabInstance: {fileID: 8219315326376855546}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8219315326376855549 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8219315325467069620, guid: ad075dc0f5550204588208e8fb78a47d, type: 3}
-  m_PrefabInstance: {fileID: 8219315326376855546}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8219315326376855550 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8219315326156335552, guid: ad075dc0f5550204588208e8fb78a47d, type: 3}
-  m_PrefabInstance: {fileID: 8219315326376855546}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8219315326376855551 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8219315325847291578, guid: ad075dc0f5550204588208e8fb78a47d, type: 3}
-  m_PrefabInstance: {fileID: 8219315326376855546}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &8219315326376855552
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8219315326376855547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 414e437f02b73564399bdf4100ba610f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &8219315326376855553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8219315326376855548}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 414e437f02b73564399bdf4100ba610f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &8219315326376855554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8219315326376855549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 414e437f02b73564399bdf4100ba610f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &8219315326376855555
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8219315326376855550}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 414e437f02b73564399bdf4100ba610f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &8219315326376855556
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8219315326376855551}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 414e437f02b73564399bdf4100ba610f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &8680073541083325300
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -21,4 +21,11 @@ public class SetUpScene : MonoBehaviour
     {
         //Gets the values from PlayerPrefs and updates the relevant variables
     }
+
+    public void SetUpTriggerDialog(TriggerDialog td, Dialog td_dialog, string td_information, bool td_onlyOne)
+    {
+        td.dialog = td_dialog;
+        td.information = td_information;
+        td.onlyOnce = td_onlyOne;
+    }
 }

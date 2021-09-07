@@ -78,6 +78,7 @@ public class DialogManager : MonoBehaviour
              cg_bgImage.alpha = 0f;
         }
 
+        animDialogBox = GameObject.FindGameObjectWithTag("DialogBox").GetComponent<Animator>();
         txtName = GameObject.FindGameObjectWithTag("DialogBoxName").GetComponent<Text>();
         txtDialog = GameObject.FindGameObjectWithTag("DialogBoxText").GetComponent<Text>();
         
