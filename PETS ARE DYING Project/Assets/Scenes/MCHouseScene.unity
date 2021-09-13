@@ -3564,7 +3564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   listBackgroundImages:
-  - {fileID: 2800000, guid: d9c357a282376164ebe067f9bed2cbaa, type: 3}
+  - {fileID: 2800000, guid: cd7a4e25071efe141831d6b1c4cb0360, type: 3}
   animDialogBox: {fileID: 6064425322301944403}
   txtName: {fileID: 0}
   txtDialog: {fileID: 0}
