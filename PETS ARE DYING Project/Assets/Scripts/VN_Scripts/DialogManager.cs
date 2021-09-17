@@ -191,7 +191,7 @@ public class DialogManager : MonoBehaviour
             }
             else if(currentDialog.afterDialogIsDecison())
             {
-                Debug.Log("Let's take a decision");
+                //Debug.Log("Let's take a decision");
                 //setBool of isDecision
                 animDialogBox.SetBool("isDecision", true);
                 //Read text from DecisonScript like a DialogLine
@@ -241,6 +241,40 @@ public class DialogManager : MonoBehaviour
                 //The amount of bottons in the screen is related to the 
                 //amount of options of the decisions (array's length)
                 return;
+            }
+            else if(currentDialog.afterDialogIsConditionedDecision())
+            {
+                Debug.Log("Let's take a conditioned decision");
+                //Get the decision
+                ConditionedDecision conditionedDecision = currentDialog.conditionedDecision;
+                conditionedDecision.TryOptions();
+                //See if there is any option unlocked
+                if(conditionedDecision.options[0]==null)
+                {
+                    Debug.Log("There are no unlocked options, so the dialog is over");
+                    FinishDialog();
+                    return;
+                }
+
+                //Set the Decision Line and the options
+                animDialogBox.SetBool("isDecision", true);
+                txtName.text = conditionedDecision.name;
+                
+                if(dialogWriter!=null) StopCoroutine(dialogWriter);
+                dialogWriter = WriteLine(conditionedDecision.text);
+                StartCoroutine(dialogWriter);
+
+                //optionButtons = conditionedDecision.options;
+                int j = 0;
+                
+                for(int i=0; i<conditionedDecision.options.Length; i++)
+                    if(conditionedDecision.options[i]!=null)
+                        optionButtons[j++].LinkOption(conditionedDecision.options[i]);                
+                
+                //The amount of bottons in the screen is related to the 
+                //amount of options of the decisions (array's length)
+                return;
+
             }
             else if(currentDialog.afterDialogIsEvent())
             {

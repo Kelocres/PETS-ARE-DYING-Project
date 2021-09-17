@@ -274,7 +274,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &93275176
 MonoBehaviour:
@@ -297,6 +297,11 @@ MonoBehaviour:
     name: 
     text: 
     options: []
+  conditionedDecision:
+    name: 
+    text: 
+    options: []
+    conditionedOptions: []
   nextDialog: {fileID: 0}
   ade: {fileID: 0}
   selectBGImage: -1
@@ -521,7 +526,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &435953651
 PrefabInstance:
@@ -661,7 +666,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1341963332614527255, guid: df2685474704b044b9b591b0160d5e6c, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1341963332614527255, guid: df2685474704b044b9b591b0160d5e6c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -814,7 +819,7 @@ Transform:
   m_LocalScale: {x: 2.1322, y: 2.1322, z: 2.1322}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &564872860
 MonoBehaviour:
@@ -837,6 +842,11 @@ MonoBehaviour:
     name: 
     text: 
     options: []
+  conditionedDecision:
+    name: 
+    text: 
+    options: []
+    conditionedOptions: []
   nextDialog: {fileID: 0}
   ade: {fileID: 0}
   selectBGImage: -1
@@ -856,6 +866,67 @@ MonoBehaviour:
   information: 
   dialog: {fileID: 564872860}
   onlyOnce: 1
+--- !u!1 &626913009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 626913011}
+  - component: {fileID: 626913010}
+  m_Layer: 0
+  m_Name: Conditioned Option
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &626913010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626913009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 907029ff238be7e4ea154619b820dcaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogLines:
+  - name: 
+    text: This is conditioned option
+  - name: 
+    text: If you are reading this, you shall got the required condition
+  decision:
+    name: 
+    text: 
+    options: []
+  conditionedDecision:
+    name: 
+    text: 
+    options: []
+    conditionedOptions: []
+  nextDialog: {fileID: 0}
+  ade: {fileID: 0}
+  selectBGImage: -1
+  afterDialog: 0
+--- !u!4 &626913011
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626913009}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2065621275}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &741176279
 GameObject:
   m_ObjectHideFlags: 0
@@ -903,7 +974,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &741176282
 MonoBehaviour:
@@ -941,6 +1012,11 @@ MonoBehaviour:
     name: 
     text: 
     options: []
+  conditionedDecision:
+    name: 
+    text: 
+    options: []
+    conditionedOptions: []
   nextDialog: {fileID: 0}
   ade: {fileID: 741176282}
   selectBGImage: -1
@@ -1023,7 +1099,7 @@ Transform:
   m_Children:
   - {fileID: 1734547387}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &915801440
 GameObject:
@@ -1132,7 +1208,7 @@ Transform:
   m_LocalScale: {x: 400, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &945912000
 GameObject:
@@ -1208,7 +1284,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1006656090 stripped
 RectTransform:
@@ -1220,6 +1296,113 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 6064425322446384544, guid: ad075dc0f5550204588208e8fb78a47d, type: 3}
   m_PrefabInstance: {fileID: 435953651}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1119045631
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1523502148953406055, guid: e01a88070104bda48a0089728f4cd2e8, type: 3}
+      propertyPath: setUp
+      value: 
+      objectReference: {fileID: 1167729939}
+    - target: {fileID: 3427900878140300513, guid: e01a88070104bda48a0089728f4cd2e8, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3427900878140300513, guid: e01a88070104bda48a0089728f4cd2e8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.8466587
+      objectReference: {fileID: 0}
+    - target: {fileID: 3427900878140300513, guid: e01a88070104bda48a0089728f4cd2e8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.9215078
+      objectReference: {fileID: 0}
+    - target: {fileID: 3427900878140300513, guid: e01a88070104bda48a0089728f4cd2e8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.35424352
+      objectReference: {fileID: 0}
+    - target: {fileID: 3427900878140300513, guid: e01a88070104bda48a0089728f4cd2e8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3427900878140300513, guid: e01a88070104bda48a0089728f4cd2e8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3427900878140300513, guid: e01a88070104bda48a0089728f4cd2e8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3427900878140300513, guid: e01a88070104bda48a0089728f4cd2e8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3427900878140300513, guid: e01a88070104bda48a0089728f4cd2e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3427900878140300513, guid: e01a88070104bda48a0089728f4cd2e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3427900878140300513, guid: e01a88070104bda48a0089728f4cd2e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3427900878140300515, guid: e01a88070104bda48a0089728f4cd2e8, type: 3}
+      propertyPath: m_Name
+      value: LoadingSceneManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e01a88070104bda48a0089728f4cd2e8, type: 3}
+--- !u!1 &1167729938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1167729940}
+  - component: {fileID: 1167729939}
+  m_Layer: 0
+  m_Name: SetUpTest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1167729939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167729938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63c120b7a5aac6143b1118ae4466ba2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enterPosition: {fileID: 0}
+  startingDialog: {fileID: 0}
+  dM_doStartingDialog: 0
+--- !u!4 &1167729940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167729938}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.3918092, y: 3.0353584, z: 0.7351444}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1368672481
 GameObject:
   m_ObjectHideFlags: 0
@@ -1248,7 +1431,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1390780293
 GameObject:
@@ -1344,7 +1527,7 @@ Transform:
   m_LocalScale: {x: 9.678815, y: 26.32397, z: 9.069453}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1394862644
 GameObject:
@@ -1410,7 +1593,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1416058471
 GameObject:
@@ -1441,7 +1624,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1416058473
 MonoBehaviour:
@@ -1548,7 +1731,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1657311675
 MonoBehaviour:
@@ -1798,15 +1981,177 @@ RectTransform:
   - {fileID: 1006656090}
   - {fileID: 92524944}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1943892153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1943892155}
+  - component: {fileID: 1943892154}
+  m_Layer: 0
+  m_Name: Non Conditioned Option
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1943892154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943892153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 907029ff238be7e4ea154619b820dcaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogLines:
+  - name: 
+    text: This is the non conditioned option
+  - name: 
+    text: It will appear always
+  decision:
+    name: 
+    text: 
+    options: []
+  conditionedDecision:
+    name: 
+    text: 
+    options: []
+    conditionedOptions: []
+  nextDialog: {fileID: 0}
+  ade: {fileID: 0}
+  selectBGImage: -1
+  afterDialog: 0
+--- !u!4 &1943892155
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943892153}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2065621275}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &2039524081 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3744737461653450360, guid: 6841a3107e4b5ea4d82bb1e1eb29f53f, type: 3}
   m_PrefabInstance: {fileID: 388520229}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2065621271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2065621275}
+  - component: {fileID: 2065621274}
+  - component: {fileID: 2065621273}
+  - component: {fileID: 2065621272}
+  m_Layer: 0
+  m_Name: Trigger2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &2065621272
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065621271}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.08, y: 3.03, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2065621273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065621271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 907029ff238be7e4ea154619b820dcaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogLines:
+  - name: 
+    text: So, do you want to make a conditioned decision?
+  decision:
+    name: 
+    text: 
+    options: []
+  conditionedDecision:
+    name: 
+    text: Sure
+    options: []
+    conditionedOptions:
+    - showOption: Non Conditioned
+      newDialog: {fileID: 1943892154}
+      points: 0
+      conditions: []
+    - showOption: Conditioned
+      newDialog: {fileID: 626913010}
+      points: 0
+      conditions:
+      - id: GODDIALOG
+        state: 0
+  nextDialog: {fileID: 0}
+  ade: {fileID: 0}
+  selectBGImage: -1
+  afterDialog: 4
+--- !u!114 &2065621274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065621271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59257a5877bd90344b3925e3d963e7ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  information: Third dialog
+  dialog: {fileID: 2065621273}
+  onlyOnce: 0
+--- !u!4 &2065621275
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065621271}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.35, y: 5.35, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1943892155}
+  - {fileID: 626913011}
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
