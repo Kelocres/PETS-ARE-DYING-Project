@@ -536,33 +536,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 1770842144}
     m_Modifications:
     - target: {fileID: 6064425322326360156, guid: ad075dc0f5550204588208e8fb78a47d, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6064425322326360156, guid: ad075dc0f5550204588208e8fb78a47d, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6064425322326360156, guid: ad075dc0f5550204588208e8fb78a47d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1416058473}
-    - target: {fileID: 6064425322326360156, guid: ad075dc0f5550204588208e8fb78a47d, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6064425322326360156, guid: ad075dc0f5550204588208e8fb78a47d, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ShowCurrentLine
-      objectReference: {fileID: 0}
-    - target: {fileID: 6064425322326360156, guid: ad075dc0f5550204588208e8fb78a47d, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: DialogManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6064425322326360156, guid: ad075dc0f5550204588208e8fb78a47d, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 6064425322446384545, guid: ad075dc0f5550204588208e8fb78a47d, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1007,7 +983,9 @@ MonoBehaviour:
   - name: 
     text: Do you search answers?
   - name: 
-    text: Maybe you shall seek in other triggers
+    text: Maybe you shall seek in other triggers, companion of mine. Or shall I do
+      explain all the mere distractions of our lives, while you wander like a disturbed
+      hobo, with no directions but misery?
   decision:
     name: 
     text: 
